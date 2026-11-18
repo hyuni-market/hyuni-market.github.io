@@ -565,11 +565,11 @@ window.HYEONMARKET_DATA = {
       categories: ['bebe'],
       colors: ['크림', '브라운'],
       colorHex: { '크림': '#f2ede2', '브라운': '#7b5640' },
-      sizes: ['S(3-6개월)', 'M(6-12개월)', 'L(12-24개월'],
+      sizes: ['S(3-6개월)', 'M(6-12개월)', 'L(12-24개월)'],
       thumb: 'assets/catalog/mongbebe/003-t.jpg',
       image: 'assets/catalog/mongbebe/003.jpg',
       detailImages: [],
-      description: ['색상 · 크림 / 브라운', '사이즈 · S(3-6개월) / M(6-12개월) / L(12-24개월', '색상·사이즈는 브랜드 안내 기준이에요', '세탁 방법은 상품 라벨을 확인해 주세요']
+      description: ['색상 · 크림 / 브라운', '사이즈 · S(3-6개월) / M(6-12개월) / L(12-24개월)', '색상·사이즈는 브랜드 안내 기준이에요', '세탁 방법은 상품 라벨을 확인해 주세요']
     },
     {
       id: 'mongbebe-004',
@@ -5941,11 +5941,11 @@ window.HYEONMARKET_DATA = {
       categories: ['acc'],
       colors: ['와인', '그레이', '베이지', '핑크'],
       colorHex: { '와인': '#b23a48', '그레이': '#9a9a9a', '베이지': '#d8c3a5', '핑크': '#e9a7b8' },
-      sizes: ['FREE(48~50CM', '1-4세)'],
+      sizes: ['FREE(48~50CM·1-4세)'],
       thumb: 'assets/catalog/nightbebe/017-t.jpg',
       image: 'assets/catalog/nightbebe/017.jpg',
       detailImages: [],
-      description: ['색상 · 와인 / 그레이 / 베이지 / 핑크', '사이즈 · FREE(48~50CM / 1-4세)', '색상·사이즈는 브랜드 안내 기준이에요', '세탁 방법은 상품 라벨을 확인해 주세요']
+      description: ['색상 · 와인 / 그레이 / 베이지 / 핑크', '사이즈 · FREE(48~50CM·1-4세)', '색상·사이즈는 브랜드 안내 기준이에요', '세탁 방법은 상품 라벨을 확인해 주세요']
     },
     {
       id: 'nightbebe-018',
