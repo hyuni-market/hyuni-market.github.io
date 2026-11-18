@@ -1196,8 +1196,8 @@
         ? '<img src="' + esc(p.thumb) + '" alt="' + esc(p.brand + ' ' + p.name) + '" loading="lazy" />'
         : '<div class="card-ph"><span>' + esc(p.brand) + '</span></div>';
       var meta = [];
-      if (p.colors.length) meta.push('색상 ' + esc(p.colors.join(' · ')));
-      if (p.sizes.length) meta.push('사이즈 ' + esc(p.sizes.join(' · ')));
+      if (p.colors.length) meta.push(esc(p.colors.join(' · ')));
+      if (p.sizes.length) meta.push(esc(p.sizes.join(' · ')));
       return '' +
         '<div class="card" role="button" tabindex="0" data-open-detail="' + esc(p.id) + '" aria-label="' + esc(p.brand + ' ' + p.name) + ' 상세 보기">' +
           '<div class="card-media">' +
