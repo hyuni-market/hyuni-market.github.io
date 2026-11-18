@@ -359,7 +359,8 @@
   .add-note{margin:9px 0 0;font-size:12px;color:#77695b;text-align:center}
 
   /* ── 사이즈표 ──────────────────────────────────────────── */
-  .brand-pills{display:flex;gap:7px;padding:12px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap;background:#fff}
+  /* 브랜드가 많아져도 사이즈표가 화면 위쪽에 보이도록 브랜드 목록은 높이를 제한해 스크롤 */
+  .brand-pills{display:flex;gap:7px;padding:12px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap;background:#fff;max-height:26vh;overflow-y:auto;overscroll-behavior:contain}
   .brand-pill{
     border:1px solid var(--line);background:#fff;border-radius:999px;
     padding:8px 15px;font-size:13px;font-weight:700;cursor:pointer;color:#7c6f61;
@@ -1754,6 +1755,8 @@
     pills.innerHTML = chartedBrands.map(function (b) {
       return '<button class="brand-pill" type="button" role="tab" data-brand-tab="' + esc(b.id) + '" aria-pressed="' + (activeBrand === b.id) + '">' + esc(b.name) + '</button>';
     }).join('');
+    var on = pills.querySelector('[aria-pressed="true"]');
+    if (on && on.scrollIntoView) on.scrollIntoView({ block: 'nearest' });
   }
 
   function renderSizeBody() {
