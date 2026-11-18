@@ -180,14 +180,6 @@
   .card-name{font-size:15px;font-weight:700;letter-spacing:-.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .card-price{font-size:17px;font-weight:700;letter-spacing:0;color:#241c15}
   .card-meta{font-size:12px;color:#6d5f51;line-height:1.55;margin-top:3px}
-  .card-size-link{
-    margin-top:7px;align-self:flex-start;
-    display:inline-flex;align-items:center;gap:4px;
-    background:var(--accent-soft);color:var(--accent-deep);
-    border:0;border-radius:999px;padding:6px 10px;
-    font-size:11.5px;font-weight:800;cursor:pointer;
-  }
-  .card-size-link:hover{background:#ffedc7}
   /* ── 브랜드 폴더 목록 ────────────────────────────────────── */
   .brand-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:4px 0 10px}
   @media(min-width:700px){.brand-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}
@@ -1022,7 +1014,6 @@
             '<span class="card-name">' + esc(p.name) + '</span>' +
             '<span class="card-price">' + won(p.price) + '</span>' +
             '<span class="card-meta">' + meta.join('<br />') + '</span>' +
-            (hasSizeChart(brand) ? '<button class="card-size-link" type="button" data-size-brand="' + esc(p.brandId) + '">' + esc(sizeChartLabel(p)) + '</button>' : '') +
           '</div>' +
         '</div>';
     }).join('');
