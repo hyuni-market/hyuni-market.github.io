@@ -1040,6 +1040,8 @@
     var productsMode = (view === 'brand') || !!q;
     var hero = document.querySelector('.hero');
     if (hero) hero.hidden = (view === 'brand');
+    var catBar = document.getElementById('catBar');
+    if (catBar) catBar.hidden = (view === 'brand');
 
     document.getElementById('brandGrid').hidden = productsMode;
     document.getElementById('productGrid').hidden = !productsMode;
