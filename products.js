@@ -70,7 +70,7 @@ window.HYEONMARKET_DATA = {
         'assets/detail/19.jpg', 'assets/detail/20.jpg'
       ],
       description: [
-        '한 벌로 두 가지 분위기, 앞뒤로 뒤집어 입는 리버시블 무스탕',
+        '앞뒤로 뒤집어 입는 리버시블 무스탕',
         '보들보들한 안감으로 겨울까지 포근하게',
         '베이지 · 브라운 두 컬러',
         '세탁 방법은 상품 라벨을 확인해 주세요'
