@@ -311,8 +311,7 @@
     margin:12px 0 0;font-size:12px;color:#6b5d4e;line-height:1.7;
     background:var(--soft);border-radius:14px;padding:11px 13px;
   }
-  .size-figure{margin:20px 0 0}
-  .size-figure figcaption{font-size:12px;color:#6b5d4e;margin-bottom:8px;font-weight:700}
+  .size-figure{margin:0}
   .size-figure img{width:100%;border-radius:17px;border:1px solid var(--line);display:block}
 
   /* 상품 상세 안에 바로 보이는 브랜드 사이즈표 */
@@ -326,8 +325,7 @@
   .detail-size table.size-table td{padding:11px 6px;font-size:13.5px}
   .detail-size table.size-table td:first-child{font-size:14px}
   .detail-size .size-note{margin-top:10px;font-size:11.5px;padding:11px 13px}  
-  .detail-size-figure{margin:14px 0 0}
-  .detail-size-figure figcaption{font-size:12px;color:#6b5d4e;margin-bottom:8px;font-weight:700}
+  .detail-size-figure{margin:0}
   .detail-size-figure img{width:100%;display:block;border-radius:14px;border:1px solid var(--line);background:#fff}
 
   /* ── 장바구니 ──────────────────────────────────────────── */
@@ -1105,7 +1103,16 @@
       '</tbody></table></div>';
   }
 
-  /* 상품 상세 안에 바로 붙는 브랜드 사이즈표 (표 + 브랜드 원본 이미지) */
+  /* 사이즈표 본문: 브랜드가 원본 이미지를 주면 이미지만, 없으면 표로 */
+  function sizeChartBodyHtml(b, figureClass) {
+    if (b.sizeImage) {
+      return '<figure class="' + figureClass + '">' +
+        '<img src="' + esc(b.sizeImage) + '" alt="' + esc(b.name) + ' 사이즈표 이미지" /></figure>';
+    }
+    return sizeTableHtml(b);
+  }
+
+  /* 상품 상세 안에 바로 붙는 브랜드 사이즈표 */
   function inlineSizeChartHtml(b) {
     if (!b || (!b.sizeTable && !b.sizeImage)) return '';
     var html = '<section class="detail-size" id="detailSizeChart" aria-labelledby="detailSizeTitle">' +
@@ -1113,12 +1120,8 @@
         '<h4 id="detailSizeTitle">📏 ' + esc(b.name) + ' 사이즈표</h4>' +
         (b.nameEn ? '<span>' + esc(b.nameEn) + '</span>' : '') +
       '</div>' +
-      sizeTableHtml(b);
+      sizeChartBodyHtml(b, 'detail-size-figure');
     if (b.sizeNote) html += '<p class="size-note">' + esc(b.sizeNote) + '</p>';
-    if (b.sizeImage) {
-      html += '<figure class="detail-size-figure"><figcaption>브랜드 원본 사이즈표</figcaption>' +
-        '<img src="' + esc(b.sizeImage) + '" alt="' + esc(b.name) + ' 사이즈표 이미지" /></figure>';
-    }
     return html + '</section>';
   }
 
@@ -1134,12 +1137,8 @@
     if (!b) return;
     var html = '<div class="size-brand-head"><h3>' + esc(b.name) + ' 사이즈</h3><span>' + esc(b.nameEn || '') + '</span></div>';
 
-    html += sizeTableHtml(b);
+    html += sizeChartBodyHtml(b, 'size-figure');
     if (b.sizeNote) html += '<p class="size-note">' + esc(b.sizeNote) + '</p>';
-    if (b.sizeImage) {
-      html += '<figure class="size-figure"><figcaption>브랜드 원본 사이즈표</figcaption>' +
-        '<img src="' + esc(b.sizeImage) + '" alt="' + esc(b.name) + ' 사이즈표 이미지" /></figure>';
-    }
     document.getElementById('sizeBody').innerHTML = html;
     renderSizePills();
   }
