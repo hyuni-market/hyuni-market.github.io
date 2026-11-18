@@ -1821,9 +1821,11 @@
   });
 
   /* ── 상단 버튼 / 검색 ─────────────────────────────────── */
-  document.getElementById('topSizeBtn').addEventListener('click', function () { openSizeChart(activeBrand); });
+  /* 브랜드 안에서는 그 브랜드 사이즈표를 바로, 홈에서는 최근에 보던 브랜드 사이즈표를 연다 */
+  function sizeChartTargetBrand() { return (view === 'brand' && brandViewId) ? brandViewId : activeBrand; }
+  document.getElementById('topSizeBtn').addEventListener('click', function () { openSizeChart(sizeChartTargetBrand()); });
   var gridSizeBtn = document.getElementById('gridSizeBtn');
-  if (gridSizeBtn) gridSizeBtn.addEventListener('click', function () { openSizeChart(activeBrand); });
+  if (gridSizeBtn) gridSizeBtn.addEventListener('click', function () { openSizeChart(sizeChartTargetBrand()); });
   document.getElementById('openCartBtn').addEventListener('click', function () {
     renderCart();
     openModal('cart');
