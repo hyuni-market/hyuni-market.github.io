@@ -4,13 +4,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>혀니마켓 | 예쁜 아동복</title>
-<meta name="description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 잡화 · 신발·부츠" />
+<meta name="description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 잡화 · 신발·부츠" />
 <meta name="theme-color" content="#fffdf8" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Quicksand:wght@400;500;600;700&display=swap" />
 <meta property="og:title" content="혀니마켓 | 예쁜 아동복" />
-<meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 잡화 · 신발·부츠" />
+<meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 잡화 · 신발·부츠" />
 <meta property="og:image" content="https://hyuni-market.github.io/assets/logo.png" />
 <meta property="og:url" content="https://hyuni-market.github.io/" />
 <link rel="icon" type="image/png" href="assets/logo.png" />
@@ -404,7 +404,7 @@
   .cart-panel{
     position:fixed;top:0;right:0;bottom:0;width:100%;max-width:440px;
     background:#fff;display:flex;flex-direction:column;
-    transform:translateX(104%);transition:transform .3s cubic-bezier(.32,.72,0,1);
+    overflow:hidden;transform:translateX(104%);transition:transform .3s cubic-bezier(.32,.72,0,1);
     box-shadow:-10px 0 44px rgba(120,86,52,.14);z-index:61;
   }
   #cartModal{align-items:stretch;justify-content:flex-end}
@@ -413,38 +413,42 @@
   @media(max-width:520px){
     .cart-panel{max-width:100%}
   }
-  .cart-head{display:flex;align-items:center;gap:8px;padding:16px;border-bottom:1px solid var(--line)}
+  .cart-head{display:flex;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--line);
+    background:#fff;flex:0 0 auto}
   .cart-head h2{margin:0;font-size:16px;font-weight:800;letter-spacing:-.3px;display:flex;align-items:center;gap:6px}
   .cart-head-count{color:var(--accent-deep);font-weight:800}
-  .cart-body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:6px 0}
+  /* 상품 목록 + 배송 방법 + 합계가 한 영역에서 자연스럽게 이어져 스크롤됨 */
+  .cart-body{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:4px 0 0}
   .cart-empty{text-align:center;padding:64px 24px;color:var(--sub)}
   .cart-empty .emoji{font-size:34px;display:block;margin-bottom:12px}
   .cart-empty p{margin:0 0 18px;font-size:13.5px}
-  .cart-item{display:flex;gap:12px;padding:14px 16px;border-bottom:1px solid #f6efe3}
-  .cart-item-img{width:66px;height:82px;border-radius:13px;object-fit:cover;background:var(--soft);flex:0 0 auto;cursor:pointer}
+  .cart-item{display:flex;gap:11px;padding:11px 16px;border-bottom:1px solid #f6efe3}
+  .cart-item-img{width:60px;height:74px;border-radius:12px;object-fit:cover;background:var(--soft);flex:0 0 auto;cursor:pointer}
   .cart-item-main{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
   .cart-item-clickable{cursor:pointer}
-  .cart-item-brand{font-size:10.5px;letter-spacing:.1em;color:#7a6b5c;font-weight:800}
-  .cart-item-name{font-size:13.5px;font-weight:700;letter-spacing:-.3px}
-  .cart-item-opt{font-size:12.5px;color:#65564a}
-  .cart-item-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:7px}
+  .cart-item-brand{font-size:10.5px;letter-spacing:.1em;color:#7a6b5c;font-weight:800;line-height:1.3}
+  .cart-item-name{font-size:13.5px;font-weight:700;letter-spacing:-.3px;line-height:1.32}
+  .cart-item-opt{font-size:12.5px;color:#65564a;line-height:1.32;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cart-item-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:5px}
   .cart-item .stepper{border-radius:9px}
-  .cart-item .stepper button{width:28px;height:28px;font-size:14px}
+  .cart-item .stepper button{width:26px;height:26px;font-size:13px}
   .cart-item .stepper .qty{min-width:30px;font-size:12.5px}
   .cart-item-price{font-size:13.5px;font-weight:800;letter-spacing:-.2px}
   .cart-item-del{
     align-self:flex-start;
-    border:0;background:none;color:#b3a595;font-size:11px;font-weight:700;
-    text-decoration:underline;text-underline-offset:2px;cursor:pointer;padding:2px 0;
+    border:0;background:none;color:#b3a595;font-size:10.5px;font-weight:700;line-height:1.2;
+    text-decoration:underline;text-underline-offset:2px;cursor:pointer;padding:0;
   }
   .cart-item-del:hover{color:#8c5a3c}
-  .cart-foot{border-top:1px solid var(--line);padding:14px 16px calc(16px + env(safe-area-inset-bottom));background:#fff;flex:0 0 auto}
-  .delivery-block{margin-bottom:14px}
-  .delivery-title{font-size:12.5px;font-weight:800;color:#4f4237;margin:0 0 8px}
+  .cart-foot{border-top:1px solid var(--line);padding:9px 16px calc(11px + env(safe-area-inset-bottom));background:#fff;flex:0 0 auto;
+    box-shadow:0 -10px 20px rgba(120,86,52,.06)}
+  .cart-foot.is-empty{display:none}
+  .delivery-block{padding:12px 16px 0;margin-bottom:10px}
+  .delivery-title{font-size:12px;font-weight:800;color:#4f4237;margin:0 0 6px}
   .radio{
     display:flex;align-items:center;gap:9px;
-    border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:7px;
-    cursor:pointer;font-size:13px;background:#fff;transition:border-color .16s,background .16s;
+    border:1px solid var(--line);border-radius:12px;padding:8px 11px;margin-bottom:6px;
+    cursor:pointer;font-size:12.5px;background:#fff;transition:border-color .16s,background .16s;
   }
   .radio:last-of-type{margin-bottom:0}
   .radio input{appearance:none;-webkit-appearance:none;margin:0;width:17px;height:17px;border:1.5px solid #d8cbb8;border-radius:50%;flex:0 0 auto;position:relative;cursor:pointer}
@@ -452,13 +456,19 @@
   .radio span{font-weight:700}
   .radio .price{margin-left:auto;font-weight:800;color:var(--accent-deep);font-size:13px}
   .radio:has(input:checked){border-color:var(--accent);background:#fdf6e5}
-  .delivery-hint{margin:8px 0 0;font-size:12px;color:#6b5d4e;line-height:1.6}
-  .copy-hint{margin:9px 0 0;padding:9px 11px;border-radius:12px;background:var(--accent-soft);color:var(--accent-deep);font-size:11.5px;font-weight:700;line-height:1.6;text-align:center;letter-spacing:-.1px}
-  .summary{border-top:1px dashed #efe4d2;padding-top:12px;margin-bottom:13px;display:flex;flex-direction:column;gap:6px}
-  .sum-row{display:flex;justify-content:space-between;font-size:13px;color:#57493d}
+  .delivery-hint{margin:6px 0 0;font-size:11.5px;color:#6b5d4e;line-height:1.5}
+  .copy-hint{margin:8px 16px 14px;padding:8px 11px;border-radius:11px;background:var(--accent-soft);color:var(--accent-deep);font-size:11px;font-weight:700;line-height:1.5;text-align:center;letter-spacing:-.1px}
+  .summary{border-top:1px dashed #efe4d2;padding-top:10px;margin:0 16px 8px;display:flex;flex-direction:column;gap:4px}
+  .sum-row{display:flex;justify-content:space-between;font-size:12.5px;color:#57493d}
   .sum-row.total{font-size:16px;font-weight:800;color:var(--ink);margin-top:5px;padding-top:9px;border-top:1px solid var(--line);letter-spacing:-.3px}
   .sum-row.total b{color:var(--accent-deep);font-size:18px}
-  .cart-actions{display:flex;flex-direction:column;gap:7px}
+  /* 하단 결제 바: 항상 화면 아래에 고정 */
+  .cart-actions{display:flex;align-items:center;gap:8px}
+  .cart-bar-total{display:flex;flex-direction:column;justify-content:center;gap:1px;flex:0 0 auto;margin-right:auto;padding-left:2px}
+  .cart-bar-total span{font-size:10.5px;font-weight:700;color:#81725f;letter-spacing:-.1px}
+  .cart-bar-total b{font-size:16.5px;font-weight:800;color:var(--accent-deep);letter-spacing:-.5px;line-height:1.15;white-space:nowrap}
+  .cart-actions .btn-primary{flex:1 1 auto;min-width:0;padding:12px 10px;font-size:13.5px;border-radius:14px;white-space:nowrap}
+  .cart-actions .btn-continue{flex:0 0 auto;padding:12px 12px;font-size:12.5px;border-radius:14px;white-space:nowrap}
   .btn{
     border:0;border-radius:16px;padding:13px 16px;font-size:14px;font-weight:800;
     cursor:pointer;transition:transform .12s ease,background .18s ease;text-align:center;
@@ -865,6 +875,8 @@
     el.setAttribute('aria-hidden', 'false');
     document.body.classList.add('lock');
     if (name === 'cart') {
+      var cartBodyEl = document.getElementById('cartBody');
+      if (cartBodyEl) cartBodyEl.scrollTop = 0;
       // 장바구니를 바로 열면 '담았어요' 안내는 더 필요 없음
       var t = document.getElementById('toast');
       clearTimeout(toastTimer);
@@ -942,6 +954,8 @@
   }
 
   function inCategory(p) {
+    /* '주니어'는 상단 카테고리이지만 브랜드 분류가 아니라 사이즈 기준이에요 */
+    if (filter.category === 'junior') return isJunior(p);
     var cats = p.categories || (p.category ? [p.category] : []);
     return filter.category === 'all' || cats.indexOf(filter.category) !== -1;
   }
@@ -983,14 +997,28 @@
   function renderCategories() {
     var bar = document.getElementById('catBar');
     if (!bar) return;
-    var cats = [{ id: 'all', name: '전체' }].concat(DATA.categories || []);
+    var base = (DATA.categories || []).slice();
+    var cats = [{ id: 'all', name: '전체' }].concat(base);
+    /* 주니어는 품목이 아니라 상단 카테고리: 남녀공용 다음, 잡화 앞에 놓습니다 */
+    var jAt = -1;
+    for (var i = 0; i < cats.length; i++) {
+      if (cats[i].id === 'unisex') { jAt = i + 1; break; }
+    }
+    if (jAt < 0) {
+      for (var k = 0; k < cats.length; k++) {
+        if (cats[k].id === 'acc' || cats[k].id === 'shoes') { jAt = k; break; }
+      }
+    }
+    if (jAt < 0) jAt = cats.length;
+    cats.splice(jAt, 0, { id: 'junior', name: '주니어' });
     bar.innerHTML = cats.map(function (c) {
       return '<button class="cat-pill" type="button" data-cat="' + esc(c.id) + '" aria-pressed="' +
         (filter.category === c.id) + '">' + esc(c.name) + '</button>';
     }).join('');
   }
 
-  /* 품목 필터 바 (전체 · 아우터 · 상의 · 하의 · 상하세트 · 원피스 · 실내복 · 주니어) */
+  /* 품목 필터 바 (전체 · 아우터 · 상의 · 하의 · 상하세트 · 원피스 · 실내복)
+     — 주니어는 상단 카테고리로 올렸으므로 여기서는 뺍니다 */
   /* 브랜드 바로가기 드롭다운 (전체 브랜드 · 브랜드별 상품 수) */
   function renderBrandSelect() {
     var sel = document.getElementById('brandSelect');
@@ -1008,7 +1036,7 @@
   function renderTypeBar() {
     var bar = document.getElementById('typeBar');
     if (!bar) return;
-    var types = DATA.itemTypes || [{ id: 'all', name: '전체' }];
+    var types = (DATA.itemTypes || [{ id: 'all', name: '전체' }]).filter(function (t) { return t.id !== 'junior'; });
     var base = DATA.products.filter(function (p) {
       if (!inCategory(p)) return false;
       if (view === 'brand' && p.brandId !== brandViewId) return false;
@@ -1016,7 +1044,7 @@
     });
     var html = types.map(function (t) {
       var n = base.filter(function (p) {
-        return t.id === 'all' ? true : (t.id === 'junior' ? isJunior(p) : (p.itemType || 'etc') === t.id);
+        return t.id === 'all' ? true : (p.itemType || 'etc') === t.id;
       }).length;
       var empty = (view === 'brand' && t.id !== 'all' && !n);
       var label = t.name + (view === 'brand' && t.id !== 'all' && n ? ' ' + n : '');
@@ -1119,6 +1147,7 @@
 
     var totalProducts = cards.reduce(function (n, c) { return n + c.total; }, 0);
     count.innerHTML = '브랜드 <b>' + cards.length + '</b>곳 · 상품 <b>' + totalProducts + '</b>개' +
+      (filter.category === 'junior' ? ' · 주니어' : '') +
       (q ? ' · “' + esc(filter.q.trim()) + '”' : '');
 
     if (!cards.length) {
@@ -1172,6 +1201,7 @@
     list = sortProducts(list);
 
     var typeLabel = (filter.itemType && filter.itemType !== 'all') ? itemTypeName(filter.itemType) : '';
+    if (filter.category === 'junior') typeLabel = typeLabel ? '주니어 · ' + typeLabel : '주니어';
     if (view === 'brand') {
       count.innerHTML = (typeLabel ? esc(typeLabel) + ' <b>' + list.length + '</b>개 상품' : '전체 <b>' + list.length + '</b>개 상품') +
         (q ? ' · “' + esc(filter.q.trim()) + '”' : '');
@@ -1550,13 +1580,17 @@
   function renderCart() {
     var body = document.getElementById('cartBody');
     var foot = document.getElementById('cartFoot');
+    var keepTop = body.scrollTop;
 
     if (!cart.length) {
       body.innerHTML = '<div class="cart-empty"><span class="emoji">🧺</span><p>장바구니가 비어 있어요</p>' +
         '<button class="btn btn-soft" type="button" data-close="cart">쇼핑 계속하기</button></div>';
       foot.innerHTML = '';
+      foot.classList.add('is-empty');
+      body.scrollTop = 0;
       return;
     }
+    foot.classList.remove('is-empty');
 
     body.innerHTML = cart.map(function (it, i) {
       var p = productById(it.productId);
@@ -1578,9 +1612,7 @@
             '<button class="cart-item-del" type="button" data-cart-del="' + i + '">삭제</button>' +
           '</div>' +
         '</div>';
-    }).join('');
-
-    foot.innerHTML = '' +
+    }).join('') +
       '<div class="delivery-block">' +
         '<p class="delivery-title">배송 방법</p>' +
         '<label class="radio">' +
@@ -1596,13 +1628,17 @@
       '<div class="summary">' +
         '<div class="sum-row"><span>상품 합계</span><span>' + won(subtotal()) + '</span></div>' +
         '<div class="sum-row"><span>배송비 (' + shippingLabel() + ')</span><span>' + won(shippingFee()) + '</span></div>' +
-        '<div class="sum-row total"><span>총 결제금액</span><b id="cartTotal">' + won(grandTotal()) + '</b></div>' +
-      '</div>' +
-      '<div class="cart-actions">' +
-        '<button class="btn btn-primary" type="button" id="copyOrderBtn">주문서 복사하기</button>' +
-        '<button class="btn btn-ghost" type="button" data-close="cart">계속 쇼핑</button>' +
       '</div>' +
       '<p class="copy-hint">1:1 채팅방에 복사한 주문서와 함께 성함, 연락처, 주소를 보내주시면 입금 안내 드립니다.</p>';
+
+    if (keepTop) body.scrollTop = keepTop;
+
+    foot.innerHTML = '' +
+      '<div class="cart-actions">' +
+        '<div class="cart-bar-total"><span>총 결제금액</span><b id="cartTotal">' + won(grandTotal()) + '</b></div>' +
+        '<button class="btn btn-ghost btn-continue" type="button" data-close="cart">계속 쇼핑</button>' +
+        '<button class="btn btn-primary" type="button" id="copyOrderBtn">주문서 복사하기</button>' +
+      '</div>';
   }
 
   document.getElementById('cartBody').addEventListener('click', function (e) {
@@ -1634,7 +1670,7 @@
     openDetail(productId, { silent: true });
   }
 
-  document.getElementById('cartFoot').addEventListener('change', function (e) {
+  document.getElementById('cartBody').addEventListener('change', function (e) {
     if (!e.target || e.target.name !== 'delivery') return;
     delivery = e.target.value === 'combined' ? 'combined' : 'normal';
     save();
