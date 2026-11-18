@@ -4,13 +4,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>혀니마켓 | 예쁜 아동복</title>
-<meta name="description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어" />
+<meta name="description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 잡화 · 신발·부츠" />
 <meta name="theme-color" content="#fffdf8" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Quicksand:wght@400;500;600;700&display=swap" />
 <meta property="og:title" content="혀니마켓 | 예쁜 아동복" />
-<meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어" />
+<meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 잡화 · 신발·부츠" />
 <meta property="og:image" content="https://hyuni-market.github.io/assets/logo.png" />
 <meta property="og:url" content="https://hyuni-market.github.io/" />
 <link rel="icon" type="image/png" href="assets/logo.png" />
@@ -103,10 +103,8 @@
 
   /* ── 카테고리 탭 ──────────────────────────────────────── */
   .cat-bar{
-    display:flex;gap:7px;overflow-x:auto;padding:0 0 12px;
-    scrollbar-width:none;-ms-overflow-style:none;
+    display:flex;flex-wrap:wrap;gap:7px;padding:0 0 12px;
   }
-  .cat-bar::-webkit-scrollbar{display:none}
   .cat-pill{
     flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:999px;
     padding:9px 16px;font-size:13.5px;font-weight:700;color:#5f5245;cursor:pointer;
@@ -160,7 +158,7 @@
   }
   .card:hover{box-shadow:var(--shadow);transform:translateY(-2px);border-color:#e9dcc9}
   .card:active{transform:scale(.995)}
-  .card-media{position:relative;aspect-ratio:3/4;background:var(--soft);overflow:hidden}
+  .card-media{position:relative;aspect-ratio:1/1;background:var(--soft);overflow:hidden}
   .card-media img{width:100%;height:100%;object-fit:cover;display:block}
   .card:hover .card-media img{transform:scale(1.03)}
   .card-media img{transition:transform .5s ease}
@@ -184,6 +182,14 @@
   }
   .card-size-link:hover{background:#ffedc7}
   .empty-grid{padding:56px 0 72px;text-align:center;color:var(--sub);font-size:13.5px;grid-column:1/-1}
+  .card-ph{width:100%;height:100%;display:grid;place-items:center;background:linear-gradient(160deg,#fdf7ec,#f4ecdf);color:#b9a894;font-size:12.5px;font-weight:800;letter-spacing:.06em}
+  .load-more-wrap{display:flex;justify-content:center;padding:26px 0 8px}
+  .load-more{
+    border:1px solid #e7d9c5;background:#fff;color:#5c4b3b;
+    border-radius:999px;padding:12px 22px;font-size:13.5px;font-weight:800;cursor:pointer;
+    box-shadow:0 6px 18px rgba(120,86,52,.06);
+  }
+  .load-more:hover{background:var(--soft)}
   .empty-grid .emoji{font-size:30px;display:block;margin-bottom:10px}
 
   /* ── 모달 공통 ─────────────────────────────────────────── */
@@ -228,6 +234,8 @@
   .detail-body{display:grid;grid-template-columns:1fr}
   .detail-media{background:var(--soft);grid-column:1;grid-row:1}
   .detail-main{display:block;width:100%;height:54vh;max-height:560px;object-fit:cover;object-position:center;background:var(--soft)}
+  .detail-main.fit{object-fit:contain;object-position:center;background:#fbf7f0}
+  .detail-main-ph{height:54vh;max-height:560px;display:grid;place-items:center;background:linear-gradient(160deg,#fdf7ec,#f4ecdf);color:#b9a894;font-weight:800;letter-spacing:.06em}
   .detail-gallery{display:flex;flex-direction:column;gap:2px;background:var(--soft);grid-column:1;grid-row:3}
   .detail-gallery img{display:block;width:100%;background:var(--soft)}
   .gallery-head{
@@ -488,6 +496,7 @@
     </div>
 
     <section class="grid" id="productGrid" aria-label="상품 목록"></section>
+    <div class="load-more-wrap" id="loadMoreWrap"></div>
   </div>
 </main>
 
@@ -567,7 +576,10 @@
   var delivery = 'normal';       // 'normal' | 'combined'
   var filter = { q: '', brand: 'all', category: 'all' };
   var detailState = null;        // {productId, color, size, qty}
-  var activeBrand = DATA.brands[0] ? DATA.brands[0].id : null;
+  var PAGE_SIZE = 60;            // 한 번에 보여줄 카드 수(더 보기로 이어서)
+  var shown = PAGE_SIZE;
+  var chartedBrands = (DATA.brands || []).filter(hasSizeChart);
+  var activeBrand = chartedBrands[0] ? chartedBrands[0].id : (DATA.brands[0] ? DATA.brands[0].id : null);
   var lastFocus = null;
 
   /* ── 유틸 ─────────────────────────────────────────────── */
@@ -590,7 +602,20 @@
     return null;
   }
   function brandOf(p) { return brandById(p.brandId) || { name: p.brand, sizeTable: null }; }
+  function hasSizeChart(b) { return !!(b && (b.sizeImage || b.sizeTable)); }
   function sizeChartLabel(p) { return '📏 ' + brandOf(p).name + ' 사이즈표'; }
+  /* 사이즈별 추가금이 있는 상품은 옵션 가격이 달라져요 */
+  function unitPrice(p, size) {
+    var add = (p.sizeAdd && size && p.sizeAdd[size]) ? p.sizeAdd[size] : 0;
+    return p.price + add;
+  }
+  function sizeAddHtml(p, s) {
+    var add = (p.sizeAdd && p.sizeAdd[s]) ? p.sizeAdd[s] : 0;
+    return add ? '<small>+' + Number(add).toLocaleString('ko-KR') + '</small>' : '';
+  }
+  function optionLabel(color, size) {
+    return [color, size].filter(function (x) { return x; }).join(' / ');
+  }
   function pad2(n) { return n < 10 ? '0' + n : '' + n; }
   function nowLabel() {
     var d = new Date();
@@ -635,7 +660,7 @@
   function subtotal() {
     return cart.reduce(function (sum, it) {
       var p = productById(it.productId);
-      return sum + (p ? p.price * it.qty : 0);
+      return sum + (p ? unitPrice(p, it.size) * it.qty : 0);
     }, 0);
   }
   function shippingFee() {
@@ -743,23 +768,40 @@
     grid.classList.toggle('single', list.length === 1);
     document.querySelector('.result-line').classList.toggle('single', list.length === 1);
 
-    grid.innerHTML = list.map(function (p) {
+    var visible = list.slice(0, shown);
+    grid.innerHTML = visible.map(function (p) {
+      var brand = brandOf(p);
+      var media = p.thumb
+        ? '<img src="' + esc(p.thumb) + '" alt="' + esc(p.brand + ' ' + p.name) + '" loading="lazy" />'
+        : '<div class="card-ph"><span>' + esc(p.brand) + '</span></div>';
+      var meta = [];
+      if (p.colors.length) meta.push('색상 ' + esc(p.colors.join(' · ')));
+      if (p.sizes.length) meta.push('사이즈 ' + esc(p.sizes.join(' · ')));
       return '' +
         '<div class="card" role="button" tabindex="0" data-open-detail="' + esc(p.id) + '" aria-label="' + esc(p.brand + ' ' + p.name) + ' 상세 보기">' +
           '<div class="card-media">' +
             (p.badge ? '<span class="badge">' + esc(p.badge) + '</span>' : '') +
-            '<img src="' + esc(p.thumb) + '" alt="' + esc(p.brand + ' ' + p.name) + '" loading="lazy" />' +
+            media +
           '</div>' +
           '<div class="card-body">' +
             '<span class="card-brand">' + esc(p.brand) + '</span>' +
             '<span class="card-name">' + esc(p.name) + '</span>' +
             '<span class="card-price">' + won(p.price) + '</span>' +
-            '<span class="card-meta">색상 ' + esc(p.colors.join(' · ')) + '<br />사이즈 ' + esc(p.sizes.join(' · ')) + '</span>' +
-            '<button class="card-size-link" type="button" data-size-brand="' + esc(p.brandId) + '">' + esc(sizeChartLabel(p)) + '</button>' +
+            '<span class="card-meta">' + meta.join('<br />') + '</span>' +
+            (hasSizeChart(brand) ? '<button class="card-size-link" type="button" data-size-brand="' + esc(p.brandId) + '">' + esc(sizeChartLabel(p)) + '</button>' : '') +
           '</div>' +
         '</div>';
     }).join('');
+
+    var more = document.getElementById('loadMoreWrap');
+    if (more) {
+      more.innerHTML = list.length > shown
+        ? '<button class="load-more" type="button" id="loadMoreBtn">상품 더 보기 (' + (list.length - shown) + '개 남았어요)</button>'
+        : '';
+    }
   }
+
+  function resetPaging() { shown = PAGE_SIZE; }
 
   /* ── 상품 상세 ────────────────────────────────────────── */
   function openDetail(productId) {
@@ -768,7 +810,7 @@
     detailState = {
       productId: p.id,
       color: p.colors[0] || '',
-      size: null,
+      size: p.sizes.length ? null : '',
       qty: 1
     };
     renderDetail();
@@ -793,39 +835,50 @@
     var sizes = p.sizes.map(function (s) {
       var hint = (p.sizeHints && p.sizeHints[s]) ? '<small>' + esc(p.sizeHints[s]) + '</small>' : '';
       return '<button class="size-btn" type="button" data-size="' + esc(s) + '" aria-pressed="' + (st.size === s) + '">' +
-        esc(s) + hint + '</button>';
+        esc(s) + hint + sizeAddHtml(p, s) + '</button>';
     }).join('');
 
-    var gallery = '<p class="gallery-head">상세 이미지 ' + p.detailImages.length + '장</p>' +
-      p.detailImages.map(function (src, i) {
-        return '<img src="' + esc(src) + '" alt="' + esc(p.name) + ' 상세 이미지 ' + (i + 1) + '" loading="lazy" />';
-      }).join('');
+    var gallery = p.detailImages && p.detailImages.length
+      ? '<p class="gallery-head">상세 이미지 ' + p.detailImages.length + '장</p>' +
+        p.detailImages.map(function (src, i) {
+          return '<img src="' + esc(src) + '" alt="' + esc(p.name) + ' 상세 이미지 ' + (i + 1) + '" loading="lazy" />';
+        }).join('')
+      : '';
+    var mainSrc = p.image || p.thumb;
+    var mainMedia = mainSrc
+      ? '<img class="detail-main' + ((p.detailImages && p.detailImages.length) ? '' : ' fit') + '" src="' + esc(mainSrc) + '" alt="' + esc(p.brand + ' ' + p.name) + '" />'
+      : '<div class="detail-main-ph"><span>' + esc(p.brand) + '</span></div>';
+    var colorBlock = p.colors.length
+      ? '<div class="opt-block">' +
+          '<div class="opt-head">' +
+            '<span class="opt-label">색상<span>' + esc(st.color || '선택') + '</span></span>' +
+          '</div>' +
+          '<div class="swatches">' + colors + '</div>' +
+        '</div>'
+      : '';
+    var sizeBlock = p.sizes.length
+      ? '<div class="opt-block">' +
+          '<div class="opt-head">' +
+            '<span class="opt-label">사이즈' + (st.size ? '<span>' + esc(st.size) + '</span>' : '<span>필수</span>') + '</span>' +
+            (hasSizeChart(brand) ? '<button class="size-link" type="button" data-size-brand="' + esc(p.brandId) + '">' + esc(sizeChartLabel(p)) + '</button>' : '') +
+          '</div>' +
+          '<div class="sizes">' + sizes + '</div>' +
+        '</div>'
+      : '<div class="opt-block"><div class="opt-head"><span class="opt-label">사이즈<span>단일 사이즈</span></span>' +
+        (hasSizeChart(brand) ? '<button class="size-link" type="button" data-size-brand="' + esc(p.brandId) + '">' + esc(sizeChartLabel(p)) + '</button>' : '') +
+        '</div></div>';
 
     wrap.innerHTML = '' +
       '<div class="detail-body">' +
-        '<div class="detail-media">' +
-          '<img class="detail-main" src="' + esc(p.thumb) + '" alt="' + esc(p.brand + ' ' + p.name) + '" />' +
-        '</div>' +
+        '<div class="detail-media">' + mainMedia + '</div>' +
         '<div class="detail-info' + (inlineSizeChartHtml(brand) ? ' has-size-chart' : '') + '">' +
           '<span class="d-brand">' + esc(brand.name) + '</span>' +
           '<h3 class="d-name">' + esc(p.name) + '</h3>' +
           '<div class="d-price" id="detailPrice">' + won(p.price) + '</div>' +
           '<ul class="d-desc">' + p.description.map(function (d) { return '<li>' + esc(d) + '</li>'; }).join('') + '</ul>' +
 
-          '<div class="opt-block">' +
-            '<div class="opt-head">' +
-              '<span class="opt-label">색상<span>' + esc(st.color || '선택') + '</span></span>' +
-            '</div>' +
-            '<div class="swatches">' + colors + '</div>' +
-          '</div>' +
-
-          '<div class="opt-block">' +
-            '<div class="opt-head">' +
-              '<span class="opt-label">사이즈' + (st.size ? '<span>' + esc(st.size) + '</span>' : '<span>필수</span>') + '</span>' +
-              '<button class="size-link" type="button" data-size-brand="' + esc(p.brandId) + '">' + esc(sizeChartLabel(p)) + '</button>' +
-            '</div>' +
-            '<div class="sizes">' + sizes + '</div>' +
-          '</div>' +
+          colorBlock +
+          sizeBlock +
 
           '<div class="qty-row">' +
             '<span class="opt-label">수량</span>' +
@@ -835,7 +888,7 @@
                 '<span class="qty" id="detailQty">' + st.qty + '</span>' +
                 '<button type="button" data-qty="1" aria-label="수량 늘리기"' + (st.qty >= 99 ? ' disabled' : '') + '>+</button>' +
               '</div>' +
-              '<span class="line-total" id="detailTotal">' + won(p.price * st.qty) + '</span>' +
+              '<span class="line-total" id="detailTotal">' + won(unitPrice(p, st.size) * st.qty) + '</span>' +
             '</div>' +
           '</div>' +
 
@@ -845,7 +898,7 @@
           /* 브랜드 사이즈표를 여기서 바로 보여줘요 (버튼을 또 누를 필요 없이) */
           inlineSizeChartHtml(brand) +
         '</div>' +
-        '<div class="detail-gallery">' + gallery + '</div>' +
+        (gallery ? '<div class="detail-gallery">' + gallery + '</div>' : '') +
       '</div>';
   }
 
@@ -854,7 +907,7 @@
     var p = productById(detailState.productId);
     var t = document.getElementById('detailTotal');
     var q = document.getElementById('detailQty');
-    if (t) t.textContent = won(p.price * detailState.qty);
+    if (t) t.textContent = won(unitPrice(p, detailState.size) * detailState.qty);
     if (q) q.textContent = detailState.qty;
     var minus = document.querySelector('#detailScroll [data-qty="-1"]');
     var plus = document.querySelector('#detailScroll [data-qty="1"]');
@@ -887,7 +940,8 @@
     }
     if (addBtn) {
       if (!detailState) return;
-      if (!detailState.size) {
+      var dp = productById(detailState.productId);
+      if (dp && dp.sizes.length && !detailState.size) {
         toast('사이즈를 먼저 선택해 주세요');
         return;
       }
@@ -959,14 +1013,14 @@
           '<div class="cart-item-main">' +
             '<span class="cart-item-brand">' + esc(p.brand) + '</span>' +
             '<span class="cart-item-name">' + esc(p.name) + '</span>' +
-            '<span class="cart-item-opt">' + esc(it.color) + ' / ' + esc(it.size) + '</span>' +
+            '<span class="cart-item-opt">' + esc(optionLabel(it.color, it.size)) + '</span>' +
             '<div class="cart-item-bottom">' +
               '<div class="stepper" role="group" aria-label="수량">' +
                 '<button type="button" data-cart-qty="-1" aria-label="수량 줄이기"' + (it.qty <= 1 ? ' disabled' : '') + '>−</button>' +
                 '<span class="qty">' + it.qty + '</span>' +
                 '<button type="button" data-cart-qty="1" aria-label="수량 늘리기">+</button>' +
               '</div>' +
-              '<span class="cart-item-price">' + won(p.price * it.qty) + '</span>' +
+              '<span class="cart-item-price">' + won(unitPrice(p, it.size) * it.qty) + '</span>' +
             '</div>' +
             '<button class="cart-item-del" type="button" data-cart-del="' + i + '">삭제</button>' +
           '</div>' +
@@ -1031,7 +1085,7 @@
     cart.forEach(function (it, i) {
       var p = productById(it.productId);
       lines.push((i + 1) + ') ' + p.brand + ' ' + p.name);
-      lines.push('   ' + it.color + ' / ' + it.size + ' / ' + it.qty + '개 · ' + won(p.price * it.qty));
+      lines.push('   ' + optionLabel(it.color, it.size) + ' / ' + it.qty + '개 · ' + won(unitPrice(p, it.size) * it.qty));
     });
     lines.push('');
     lines.push('상품 합계 ' + won(subtotal()));
@@ -1107,7 +1161,7 @@
 
   /* 사이즈표 본문: 브랜드가 원본 이미지를 주면 이미지만, 없으면 표로 */
   function sizeChartBodyHtml(b, figureClass) {
-    if (b.sizeImage) {
+    if (b && b.sizeImage) {
       return '<figure class="' + figureClass + '">' +
         '<img src="' + esc(b.sizeImage) + '" alt="' + esc(b.name) + ' 사이즈표 이미지" /></figure>';
     }
@@ -1129,24 +1183,32 @@
 
   function renderSizePills() {
     var pills = document.getElementById('sizeBrandPills');
-    pills.innerHTML = DATA.brands.map(function (b) {
+    pills.innerHTML = chartedBrands.map(function (b) {
       return '<button class="brand-pill" type="button" role="tab" data-brand-tab="' + esc(b.id) + '" aria-pressed="' + (activeBrand === b.id) + '">' + esc(b.name) + '</button>';
     }).join('');
   }
 
   function renderSizeBody() {
-    var b = brandById(activeBrand) || DATA.brands[0];
-    if (!b) return;
+    var b = brandById(activeBrand) || chartedBrands[0];
+    if (!b) {
+      document.getElementById('sizeBody').innerHTML = '<p class="size-note">사이즈표를 불러오지 못했어요.</p>';
+      return;
+    }
+    activeBrand = b.id;
     var html = '<div class="size-brand-head"><h3>' + esc(b.name) + ' 사이즈</h3><span>' + esc(b.nameEn || '') + '</span></div>';
 
-    html += sizeChartBodyHtml(b, 'size-figure');
-    if (b.sizeNote) html += '<p class="size-note">' + esc(b.sizeNote) + '</p>';
+    if (hasSizeChart(b)) {
+      html += sizeChartBodyHtml(b, 'size-figure');
+      if (b.sizeNote) html += '<p class="size-note">' + esc(b.sizeNote) + '</p>';
+    } else {
+      html += '<p class="size-note">이 브랜드는 아직 사이즈표 이미지가 없어요. 상품마다 사이즈 옵션을 확인해 주세요.</p>';
+    }
     document.getElementById('sizeBody').innerHTML = html;
     renderSizePills();
   }
 
   function openSizeChart(brandId) {
-    if (brandId && brandById(brandId)) activeBrand = brandId;
+    if (brandId && hasSizeChart(brandById(brandId))) activeBrand = brandId;
     renderSizeBody();
     openModal('size');
     var sc = document.getElementById('sizeBody');
@@ -1204,12 +1266,14 @@
     clearTimeout(searchTimer);
     searchTimer = setTimeout(function () {
       filter.q = searchInput.value;
+      resetPaging();
       renderGrid();
     }, 120);
   });
 
   document.getElementById('brandSelect').addEventListener('change', function (e) {
     filter.brand = e.target.value;
+    resetPaging();
     renderGrid();
   });
 
@@ -1217,7 +1281,14 @@
     var btn = e.target.closest('[data-cat]');
     if (!btn) return;
     filter.category = btn.getAttribute('data-cat');
+    resetPaging();
     renderCategories();
+    renderGrid();
+  });
+
+  document.getElementById('loadMoreWrap').addEventListener('click', function (e) {
+    if (!e.target.closest('#loadMoreBtn')) return;
+    shown += PAGE_SIZE;
     renderGrid();
   });
 
