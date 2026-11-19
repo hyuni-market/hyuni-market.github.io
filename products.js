@@ -878,7 +878,21 @@ window.HYEONMARKET_DATA = {
       categories: ['unisex'],
       sizeImage: 'assets/catalog/sizes/hey.jpg',
       sizeNote: 'XS~XL 사이즈예요. 키와 몸무게를 함께 보고 골라 주세요.',
-    },  ],
+    },    {
+      id: 'soye',
+      name: '소예',
+      nameEn: 'SOYE',
+      categories: ['girl'],
+      sizeNote: 'XS~XL 키즈 사이즈에 주니어 JS 사이즈가 있어요. 상세 사진의 실측표를 함께 봐 주세요.',
+    },
+    {
+      id: 'eji',
+      name: '이지아이',
+      nameEn: 'EJI',
+      categories: ['shoes'],
+      sizeNote: '110~220mm 사이즈예요. 아이 발 길이에 5~10mm 여유를 두고 골라 주세요.',
+    },
+  ],
 
   products: [
     {
@@ -142824,6 +142838,1507 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-3/main/catalog/hey/016-8.webp'
       ],
       description: ['색상 · 옐로우 / 아이보리 / 코랄핑크', '사이즈 · XS / S / M / L / XL']
+    },
+    {
+      id: 'soye-001',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26꽈배기레그워머',
+      itId: 'GN1245874',
+      releaseDate: '2026-11-18',
+      price: 18000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'sock',
+      colors: ['크림', '차콜'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1245874-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1245874-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1245874-1.webp'
+      ],
+      description: ['색상 · 크림 / 차콜', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-002',
+      brandId: 'soye',
+      brand: '소예',
+      name: '홀가캐시가디건',
+      itId: 'GN1244314',
+      releaseDate: '2026-11-12',
+      price: 50000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['메란지', '퍼플', '카멜베이지'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244314-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244314-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244314-1.webp'
+      ],
+      description: ['색상 · 메란지 / 퍼플 / 카멜베이지', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-003',
+      brandId: 'soye',
+      brand: '소예',
+      name: '로우코트',
+      itId: 'GN1244269',
+      releaseDate: '2026-11-12',
+      price: 83000,
+      categories: ['girl'],
+      itemType: 'outer',
+      colors: ['브라운'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244269-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244269-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244269-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-004',
+      brandId: 'soye',
+      brand: '소예',
+      name: '핀콧ST립티',
+      itId: 'GN1244312',
+      releaseDate: '2026-11-12',
+      price: 20000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['블루', '차콜'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244312-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244312-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244312-1.webp'
+      ],
+      description: ['색상 · 블루 / 차콜', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-005',
+      brandId: 'soye',
+      brand: '소예',
+      name: '헤리티지케이블니트',
+      itId: 'GN1244313',
+      releaseDate: '2026-11-12',
+      price: 46000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['오트그레이', '핑크', '블루', '메란'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244313-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244313-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244313-1.webp'
+      ],
+      description: ['색상 · 오트그레이 / 핑크 / 블루 / 메란', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-006',
+      brandId: 'soye',
+      brand: '소예',
+      name: '피핀세트',
+      itId: 'GN1244311',
+      releaseDate: '2026-11-12',
+      price: 39000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['브라운', '그레이'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244311-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244311-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244311-1.webp'
+      ],
+      description: ['색상 · 브라운 / 그레이', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-007',
+      brandId: 'soye',
+      brand: '소예',
+      name: '폴린아일렛티',
+      itId: 'GN1244310',
+      releaseDate: '2026-11-12',
+      price: 22000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['핑크', '블루'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244310-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244310-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244310-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-008',
+      brandId: 'soye',
+      brand: '소예',
+      name: '포니티',
+      itId: 'GN1244309',
+      releaseDate: '2026-11-12',
+      price: 16000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크림', '메란지', '블랙'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244309-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244309-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244309-1.webp'
+      ],
+      description: ['색상 · 크림 / 메란지 / 블랙', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-009',
+      brandId: 'soye',
+      brand: '소예',
+      name: '퍼지레깅스',
+      itId: 'GN1244308',
+      releaseDate: '2026-11-12',
+      price: 13000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['보카베이지', '연밤', '차콜'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244308-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244308-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244308-1.webp'
+      ],
+      description: ['색상 · 보카베이지 / 연밤 / 차콜', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-010',
+      brandId: 'soye',
+      brand: '소예',
+      name: '팜코듀로이팬츠',
+      itId: 'GN1244307',
+      releaseDate: '2026-11-12',
+      price: 52000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['네이비', '브라운'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244307-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244307-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244307-1.webp'
+      ],
+      description: ['색상 · 네이비 / 브라운', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-011',
+      brandId: 'soye',
+      brand: '소예',
+      name: '클래식롱듀오핀',
+      itId: 'GN1244306',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['버터-핑크세트'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244306-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244306-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244306-1.webp'
+      ],
+      description: ['색상 · 버터-핑크세트', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-012',
+      brandId: 'soye',
+      brand: '소예',
+      name: '클래식듀오핀',
+      itId: 'GN1244305',
+      releaseDate: '2026-11-12',
+      price: 12000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['올리브그린', '브라운', '버터', '핑크'],
+      sizes: ['프리'],
+      colorAdd: { '버터': 1000, '핑크': 1000 },
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244305-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244305-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244305-1.webp'
+      ],
+      description: ['색상 · 올리브그린 / 브라운 / 버터 / 핑크', '사이즈 · 프리', '색상 추가금 · 버터 +1,000원, 핑크 +1,000원']
+    },
+    {
+      id: 'soye-013',
+      brandId: 'soye',
+      brand: '소예',
+      name: '클래시체크커치프',
+      itId: 'GN1244304',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'scarf',
+      colors: ['네이비'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244304-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244304-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244304-1.webp'
+      ],
+      description: ['색상 · 네이비', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-014',
+      brandId: 'soye',
+      brand: '소예',
+      name: '클래시체크와이드',
+      itId: 'GN1244303',
+      releaseDate: '2026-11-12',
+      price: 13000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairband',
+      colors: ['네이비'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244303-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244303-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244303-1.webp'
+      ],
+      description: ['색상 · 네이비', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-015',
+      brandId: 'soye',
+      brand: '소예',
+      name: '클래시스커트',
+      itId: 'GN1244302',
+      releaseDate: '2026-11-12',
+      price: 39000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['브라운', '네이비'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244302-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244302-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244302-1.webp'
+      ],
+      description: ['색상 · 브라운 / 네이비', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-016',
+      brandId: 'soye',
+      brand: '소예',
+      name: '쿠키팬츠',
+      itId: 'GN1244301',
+      releaseDate: '2026-11-12',
+      price: 37000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['핑크', '블루'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244301-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244301-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244301-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-017',
+      brandId: 'soye',
+      brand: '소예',
+      name: '코지리브팬츠',
+      itId: 'GN1244300',
+      releaseDate: '2026-11-12',
+      price: 23000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['크림', '핑크', '브라운', '먹색'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244300-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244300-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244300-1.webp'
+      ],
+      description: ['색상 · 크림 / 핑크 / 브라운 / 먹색', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-018',
+      brandId: 'soye',
+      brand: '소예',
+      name: '캐시삼각숄',
+      itId: 'GN1244299',
+      releaseDate: '2026-11-12',
+      price: 19000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'scarf',
+      colors: ['카멜베이지', '그린', '퍼플핑크', '크림', '메란지', '레드', '네이비'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244299-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244299-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244299-1.webp'
+      ],
+      description: ['색상 · 카멜베이지 / 그린 / 퍼플핑크 / 크림 / 메란지 / 레드 / 네이비', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-019',
+      brandId: 'soye',
+      brand: '소예',
+      name: '체크듀오핀',
+      itId: 'GN1244298',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['레드-블루세트'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244298-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244298-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244298-1.webp'
+      ],
+      description: ['색상 · 레드-블루세트', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-020',
+      brandId: 'soye',
+      brand: '소예',
+      name: '잉크폴라',
+      itId: 'GN1244297',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크림', '블루', '핑크', '민트', '네이비'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244297-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244297-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244297-1.webp'
+      ],
+      description: ['색상 · 크림 / 블루 / 핑크 / 민트 / 네이비', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-021',
+      brandId: 'soye',
+      brand: '소예',
+      name: '잉크포켓팬츠',
+      itId: 'GN1244296',
+      releaseDate: '2026-11-12',
+      price: 34000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['엘그레이', '푸시아핑크', '블루'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244296-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244296-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244296-1.webp'
+      ],
+      description: ['색상 · 엘그레이 / 푸시아핑크 / 블루', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-022',
+      brandId: 'soye',
+      brand: '소예',
+      name: '울리자켓',
+      itId: 'GN1244295',
+      releaseDate: '2026-11-12',
+      price: 80000,
+      categories: ['girl'],
+      itemType: 'outer',
+      colors: ['베이지', '브라운'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244295-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244295-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244295-1.webp'
+      ],
+      description: ['색상 · 베이지 / 브라운', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-023',
+      brandId: 'soye',
+      brand: '소예',
+      name: '엔젤링세트',
+      itId: 'GN1244294',
+      releaseDate: '2026-11-12',
+      price: 38000,
+      categories: ['girl'],
+      itemType: 'set',
+      colors: ['와인', '네이비'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244294-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244294-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244294-1.webp'
+      ],
+      description: ['색상 · 와인 / 네이비', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-024',
+      brandId: 'soye',
+      brand: '소예',
+      name: '앵글스트라이프티',
+      itId: 'GN1244293',
+      releaseDate: '2026-11-12',
+      price: 24000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['핑크', '그레이', '네이비'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244293-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244293-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244293-1.webp'
+      ],
+      description: ['색상 · 핑크 / 그레이 / 네이비', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-025',
+      brandId: 'soye',
+      brand: '소예',
+      name: '아가일스커트',
+      itId: 'GN1244292',
+      releaseDate: '2026-11-12',
+      price: 21000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['버건디', '그레이'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244292-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244292-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244292-1.webp'
+      ],
+      description: ['색상 · 버건디 / 그레이', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-026',
+      brandId: 'soye',
+      brand: '소예',
+      name: '수플레원피스',
+      itId: 'GN1244291',
+      releaseDate: '2026-11-12',
+      price: 52000,
+      categories: ['girl'],
+      itemType: 'dress',
+      colors: ['아이꽃'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244291-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244291-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244291-1.webp'
+      ],
+      description: ['색상 · 아이꽃', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-027',
+      brandId: 'soye',
+      brand: '소예',
+      name: '스트라이프머플러',
+      itId: 'GN1244290',
+      releaseDate: '2026-11-12',
+      price: 22000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'scarf',
+      colors: ['그레이', '브라운', '네이비'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244290-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244290-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244290-1.webp'
+      ],
+      description: ['색상 · 그레이 / 브라운 / 네이비', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-028',
+      brandId: 'soye',
+      brand: '소예',
+      name: '스웨터팬츠',
+      itId: 'GN1244289',
+      releaseDate: '2026-11-12',
+      price: 27000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['크림', '소라', '버건디브라운'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244289-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244289-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244289-1.webp'
+      ],
+      description: ['색상 · 크림 / 소라 / 버건디브라운', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-029',
+      brandId: 'soye',
+      brand: '소예',
+      name: '스웨터스커트',
+      itId: 'GN1244288',
+      releaseDate: '2026-11-12',
+      price: 27000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['블루', '살구', '오트밀'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244288-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244288-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244288-1.webp'
+      ],
+      description: ['색상 · 블루 / 살구 / 오트밀', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-030',
+      brandId: 'soye',
+      brand: '소예',
+      name: '스노우블로썸니트',
+      itId: 'GN1244287',
+      releaseDate: '2026-11-12',
+      price: 40000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크레', '크먹', '파밤'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244287-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244287-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244287-1.webp'
+      ],
+      description: ['색상 · 크레 / 크먹 / 파밤', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-031',
+      brandId: 'soye',
+      brand: '소예',
+      name: '소프트골지폴라',
+      itId: 'GN1244286',
+      releaseDate: '2026-11-12',
+      price: 23000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['핑크', '틸블루', '딥브라운', '딥네이비'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244286-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244286-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244286-1.webp'
+      ],
+      description: ['색상 · 핑크 / 틸블루 / 딥브라운 / 딥네이비', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-032',
+      brandId: 'soye',
+      brand: '소예',
+      name: '소울라운드니트',
+      itId: 'GN1244285',
+      releaseDate: '2026-11-12',
+      price: 39000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크림', '핑크', '민트'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244285-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244285-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244285-1.webp'
+      ],
+      description: ['색상 · 크림 / 핑크 / 민트', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-033',
+      brandId: 'soye',
+      brand: '소예',
+      name: '소울가디건',
+      itId: 'GN1244284',
+      releaseDate: '2026-11-12',
+      price: 46000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['그레이지', '오션블루', '마차라떼'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244284-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244284-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244284-1.webp'
+      ],
+      description: ['색상 · 그레이지 / 오션블루 / 마차라떼', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-034',
+      brandId: 'soye',
+      brand: '소예',
+      name: '비오벌룬폴라',
+      itId: 'GN1244283',
+      releaseDate: '2026-11-12',
+      price: 22000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['옐로우', '그린', '퍼플'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244283-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244283-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244283-1.webp'
+      ],
+      description: ['색상 · 옐로우 / 그린 / 퍼플', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-035',
+      brandId: 'soye',
+      brand: '소예',
+      name: '브러쉬세트',
+      itId: 'GN1244282',
+      releaseDate: '2026-11-12',
+      price: 38000,
+      categories: ['girl'],
+      itemType: 'set',
+      colors: ['메란지', '블랙'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244282-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244282-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244282-1.webp'
+      ],
+      description: ['색상 · 메란지 / 블랙', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-036',
+      brandId: 'soye',
+      brand: '소예',
+      name: '브러쉬데님팬츠',
+      itId: 'GN1244281',
+      releaseDate: '2026-11-12',
+      price: 37000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['중청', '진청'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244281-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244281-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244281-1.webp'
+      ],
+      description: ['색상 · 중청 / 진청', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-037',
+      brandId: 'soye',
+      brand: '소예',
+      name: '밍키스커트',
+      itId: 'GN1244279',
+      releaseDate: '2026-11-12',
+      price: 40000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['블랙'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244279-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244279-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244279-1.webp'
+      ],
+      description: ['색상 · 블랙', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-038',
+      brandId: 'soye',
+      brand: '소예',
+      name: '미떼팬츠',
+      itId: 'GN1244278',
+      releaseDate: '2026-11-12',
+      price: 19000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['버터', '핑크', '카멜', '메란지', '네이비', '블랙'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244278-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244278-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244278-1.webp'
+      ],
+      description: ['색상 · 버터 / 핑크 / 카멜 / 메란지 / 네이비 / 블랙', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-039',
+      brandId: 'soye',
+      brand: '소예',
+      name: '모네퀄팅스커트',
+      itId: 'GN1244277',
+      releaseDate: '2026-11-12',
+      price: 39000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['브라운', '블랙'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244277-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244277-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244277-1.webp'
+      ],
+      description: ['색상 · 브라운 / 블랙', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-040',
+      brandId: 'soye',
+      brand: '소예',
+      name: '멜로우부클스커트',
+      itId: 'GN1244276',
+      releaseDate: '2026-11-12',
+      price: 34000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['오트멜론', '베이지', '차콜'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244276-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244276-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244276-1.webp'
+      ],
+      description: ['색상 · 오트멜론 / 베이지 / 차콜', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-041',
+      brandId: 'soye',
+      brand: '소예',
+      name: '멜로우부클가디건',
+      itId: 'GN1244275',
+      releaseDate: '2026-11-12',
+      price: 48000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['오트멜론', '메란', '브라운', '차콜'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244275-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244275-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244275-1.webp'
+      ],
+      description: ['색상 · 오트멜론 / 메란 / 브라운 / 차콜', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-042',
+      brandId: 'soye',
+      brand: '소예',
+      name: '멜로우머플러',
+      itId: 'GN1244274',
+      releaseDate: '2026-11-12',
+      price: 29000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'scarf',
+      colors: ['오트멜론', '브라운', '네이비'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244274-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244274-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244274-1.webp'
+      ],
+      description: ['색상 · 오트멜론 / 브라운 / 네이비', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-043',
+      brandId: 'soye',
+      brand: '소예',
+      name: '마리나스커트',
+      itId: 'GN1244273',
+      releaseDate: '2026-11-12',
+      price: 21000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['베겨', '차콘', '베검'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244273-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244273-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244273-1.webp'
+      ],
+      description: ['색상 · 베겨 / 차콘 / 베검', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-044',
+      brandId: 'soye',
+      brand: '소예',
+      name: '롤롤스트라이프티',
+      itId: 'GN1244272',
+      releaseDate: '2026-11-12',
+      price: 17000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['화색줄', '레드줄', '아검줄', '블루바탕', '차콜바탕'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244272-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244272-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244272-1.webp'
+      ],
+      description: ['색상 · 화색줄 / 레드줄 / 아검줄 / 블루바탕 / 차콜바탕', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-045',
+      brandId: 'soye',
+      brand: '소예',
+      name: '로지리본듀오핀',
+      itId: 'GN1244271',
+      releaseDate: '2026-11-12',
+      price: 13000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['딥카키'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244271-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244271-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244271-1.webp'
+      ],
+      description: ['색상 · 딥카키', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-046',
+      brandId: 'soye',
+      brand: '소예',
+      name: '로젤터틀가디건',
+      itId: 'GN1244270',
+      releaseDate: '2026-11-12',
+      price: 46000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크림', '실버그레이', '네이비', '핑크', '모차'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244270-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244270-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244270-1.webp'
+      ],
+      description: ['색상 · 크림 / 실버그레이 / 네이비 / 핑크 / 모차', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-047',
+      brandId: 'soye',
+      brand: '소예',
+      name: '로미투웨이후드',
+      itId: 'GN1244268',
+      releaseDate: '2026-11-12',
+      price: 45000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크림', '블루', '네이비'],
+      sizes: ['S', 'M', 'L', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244268-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244268-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244268-1.webp'
+      ],
+      description: ['색상 · 크림 / 블루 / 네이비', '사이즈 · S / M / L / JS']
+    },
+    {
+      id: 'soye-048',
+      brandId: 'soye',
+      brand: '소예',
+      name: '레이스커트',
+      itId: 'GN1244267',
+      releaseDate: '2026-11-12',
+      price: 30000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['카키', '브릭'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244267-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244267-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244267-1.webp'
+      ],
+      description: ['색상 · 카키 / 브릭', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-049',
+      brandId: 'soye',
+      brand: '소예',
+      name: '랩스트라이프티',
+      itId: 'GN1244266',
+      releaseDate: '2026-11-12',
+      price: 17000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['레드', '메란지'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244266-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244266-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244266-1.webp'
+      ],
+      description: ['색상 · 레드 / 메란지', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-050',
+      brandId: 'soye',
+      brand: '소예',
+      name: '그리니코트',
+      itId: 'GN1244265',
+      releaseDate: '2026-11-12',
+      price: 165000,
+      categories: ['girl'],
+      itemType: 'outer',
+      colors: ['차콜'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244265-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244265-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244265-1.webp'
+      ],
+      description: ['색상 · 차콜', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-051',
+      brandId: 'soye',
+      brand: '소예',
+      name: '그라운드티',
+      itId: 'GN1244264',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['크림베이지', '핑크', '브라운', '네이비'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244264-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244264-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244264-1.webp'
+      ],
+      description: ['색상 · 크림베이지 / 핑크 / 브라운 / 네이비', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-052',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26벨벳와이드밴드',
+      itId: 'GN1244263',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairband',
+      colors: ['연베이지', '핑크', '빈로즈', '틸블루', '네이비', '블랙'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244263-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244263-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244263-1.webp'
+      ],
+      description: ['색상 · 연베이지 / 핑크 / 빈로즈 / 틸블루 / 네이비 / 블랙', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-053',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26벨벳스크런치',
+      itId: 'GN1244262',
+      releaseDate: '2026-11-12',
+      price: 13000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairband',
+      colors: ['연베이지', '빈로즈', '틸블루', '블랙'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244262-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244262-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244262-1.webp'
+      ],
+      description: ['색상 · 연베이지 / 빈로즈 / 틸블루 / 블랙', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-054',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26벨벳빅핀',
+      itId: 'GN1244261',
+      releaseDate: '2026-11-12',
+      price: 13000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['연베이지', '빈로즈', '블랙'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244261-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244261-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244261-1.webp'
+      ],
+      description: ['색상 · 연베이지 / 빈로즈 / 블랙', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-055',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26메리벨벳리본핀',
+      itId: 'GN1244260',
+      releaseDate: '2026-11-12',
+      price: 14000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'hairpin',
+      colors: ['연베이지', '블랙'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244260-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244260-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244260-1.webp'
+      ],
+      description: ['색상 · 연베이지 / 블랙', '사이즈 · 프리']
+    },
+    {
+      id: 'soye-056',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26마고팬츠',
+      itId: 'GN1244259',
+      releaseDate: '2026-11-12',
+      price: 20000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['크림', '핑크', '검정', '블루', '레드'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244259-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244259-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244259-1.webp'
+      ],
+      description: ['색상 · 크림 / 핑크 / 검정 / 블루 / 레드', '사이즈 · XS / S / M / L / XL / JS']
+    },
+    {
+      id: 'soye-057',
+      brandId: 'soye',
+      brand: '소예',
+      name: '26골지레그워머',
+      itId: 'GN1244258',
+      releaseDate: '2026-11-12',
+      price: 17000,
+      categories: ['girl'],
+      itemType: 'acc',
+      subcat: 'sock',
+      colors: ['버터', '브릭브라운'],
+      sizes: ['프리'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244258-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244258-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244258-1.webp'
+      ],
+      description: ['색상 · 버터 / 브릭브라운', '사이즈 · 프리']
+    },
+    {
+      id: 'eji-001',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '제라노털운동화',
+      itId: 'GN1243383',
+      releaseDate: '2026-11-10',
+      price: 27000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['블랙', '그레이'],
+      sizes: ['165', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243383-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243383-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243383-1.webp'
+      ],
+      description: ['색상 · 블랙 / 그레이', '사이즈 · 165 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-002',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '모찌털부츠',
+      itId: 'GN1243382',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이보리', '베이지'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243382-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243382-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243382-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 베이지', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-003',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '스위트어그',
+      itId: 'GN1243381',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카키'],
+      sizes: ['160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243381-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243381-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243381-1.webp'
+      ],
+      description: ['색상 · 카키', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-004',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '꼬므털베베슈즈',
+      itId: 'GN1243380',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['핑크', '옐로우'],
+      sizes: ['120', '130', '140', '150'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243380-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243380-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243380-1.webp'
+      ],
+      description: ['색상 · 핑크 / 옐로우', '사이즈 · 120 / 130 / 140 / 150']
+    },
+    {
+      id: 'eji-005',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '샤이2선운동화기모찍찍이',
+      itId: 'GN1243379',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['핑크', '브라운'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243379-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243379-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243379-1.webp'
+      ],
+      description: ['색상 · 핑크 / 브라운', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-006',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '아토털원반도',
+      itId: 'GN1243378',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이보리', '베이지'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243378-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243378-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243378-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 베이지', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-007',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '눈꽃털플랫',
+      itId: 'GN1243377',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이보리', '브라운'],
+      sizes: ['135', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243377-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243377-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243377-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 브라운', '사이즈 · 135 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-008',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '후크털어그',
+      itId: 'GN1243376',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['브라운'],
+      sizes: ['130', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243376-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243376-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243376-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · 130 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-009',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '고양이털어그',
+      itId: 'GN1243375',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이보리', '핑크', '브라운'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243375-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243375-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243375-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 핑크 / 브라운', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-010',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '양털뽀글밴드플랫',
+      itId: 'GN1243374',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이보리', '베이지', '브라운'],
+      sizes: ['135', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243374-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243374-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243374-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 베이지 / 브라운', '사이즈 · 135 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-011',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '카터털운동화',
+      itId: 'GN1243373',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['카키', '카멜'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243373-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243373-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243373-1.webp'
+      ],
+      description: ['색상 · 카키 / 카멜', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-012',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '조커털워커',
+      itId: 'GN1243372',
+      releaseDate: '2026-11-10',
+      price: 24000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['원칼라'],
+      sizes: ['145', '150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243372-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243372-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243372-1.webp'
+      ],
+      description: ['색상 · 원칼라', '사이즈 · 145 / 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-013',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '진주포근털베베',
+      itId: 'GN1243371',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이보리', '레드'],
+      sizes: ['125', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243371-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243371-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243371-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 레드', '사이즈 · 125 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-014',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '워츠털슈즈',
+      itId: 'GN1243370',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카멜', '브라운'],
+      sizes: ['130', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243370-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243370-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243370-1.webp'
+      ],
+      description: ['색상 · 카멜 / 브라운', '사이즈 · 130 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-015',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '하피베베털슈즈',
+      itId: 'GN1243369',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이보리', '핑크', '베이지'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243369-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243369-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243369-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 핑크 / 베이지', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-016',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '포드뽀글슬리퍼',
+      itId: 'GN1243368',
+      releaseDate: '2026-11-10',
+      price: 17000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'slipper',
+      colors: ['카멜', '브라운'],
+      sizes: ['160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243368-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243368-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243368-1.webp'
+      ],
+      description: ['색상 · 카멜 / 브라운', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-017',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '이중리본솜털어그',
+      itId: 'GN1243367',
+      releaseDate: '2026-11-10',
+      price: 19000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['핑크', '베이지'],
+      sizes: ['130', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243367-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243367-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243367-1.webp'
+      ],
+      description: ['색상 · 핑크 / 베이지', '사이즈 · 130 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-018',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '로티털보행기',
+      itId: 'GN1243366',
+      releaseDate: '2026-11-10',
+      price: 18000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'slipper',
+      colors: ['그레이', '브라운'],
+      sizes: ['110', '120', '130'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243366-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243366-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243366-1.webp'
+      ],
+      description: ['색상 · 그레이 / 브라운', '사이즈 · 110 / 120 / 130']
+    },
+    {
+      id: 'eji-019',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '밍크털보행기',
+      itId: 'GN1243365',
+      releaseDate: '2026-11-10',
+      price: 18000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'slipper',
+      colors: ['베이지', '핑크'],
+      sizes: ['120', '130'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243365-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243365-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243365-1.webp'
+      ],
+      description: ['색상 · 베이지 / 핑크', '사이즈 · 120 / 130']
+    },
+    {
+      id: 'eji-020',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '솜사탕보행기',
+      itId: 'GN1243364',
+      releaseDate: '2026-11-10',
+      price: 14000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'slipper',
+      colors: ['베이지', '블루'],
+      sizes: ['115', '120', '125'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243364-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243364-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243364-1.webp'
+      ],
+      description: ['색상 · 베이지 / 블루', '사이즈 · 115 / 120 / 125']
     },
   ]
 };
