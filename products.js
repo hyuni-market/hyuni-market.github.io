@@ -956,7 +956,7 @@ window.HYEONMARKET_DATA = {
     },
     {
       id: 'heyido',
-      name: '헤이도도',
+      name: '헤이도',
       nameEn: 'HEYDO',
       categories: ['unisex'],
     },
@@ -148927,7 +148927,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-001',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '데일리골덴팬츠',
       itId: '9C1793938281',
       releaseDate: '2026-11-06',
@@ -148957,7 +148957,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-002',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '댄디후리스자켓',
       itId: '8C1793938277',
       releaseDate: '2026-11-06',
@@ -148987,7 +148987,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-003',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '단가라바라클라바',
       itId: '7C1793938276',
       releaseDate: '2026-11-06',
@@ -149017,7 +149017,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-004',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '뉴욕패치맨투맨',
       itId: '6C1793938273',
       releaseDate: '2026-11-06',
@@ -149047,7 +149047,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-005',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '꾸미이너티',
       itId: '5C1793938271',
       releaseDate: '2026-11-06',
@@ -149077,7 +149077,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-006',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '그린드스톤후드티',
       itId: '4C1793938269',
       releaseDate: '2026-11-06',
@@ -149107,7 +149107,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-007',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '후드넥워머',
       itId: '44C1793938365',
       releaseDate: '2026-11-06',
@@ -149137,7 +149137,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-008',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '후다포켓팬츠',
       itId: '43C1793938362',
       releaseDate: '2026-11-06',
@@ -149167,7 +149167,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-009',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '홀리데이맨투맨',
       itId: '42C1793938361',
       releaseDate: '2026-11-06',
@@ -149197,7 +149197,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-010',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '하이넥집업',
       itId: '41C1793938359',
       releaseDate: '2026-11-06',
@@ -149227,7 +149227,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-011',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '하얀강아지맨투맨',
       itId: '40C1793938356',
       releaseDate: '2026-11-06',
@@ -149257,7 +149257,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-012',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '고요스웻팬츠',
       itId: '3C1793938264',
       releaseDate: '2026-11-06',
@@ -149287,7 +149287,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-013',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '투비건빵팬츠',
       itId: '39C1793938353',
       releaseDate: '2026-11-06',
@@ -149317,7 +149317,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-014',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '크레아부클니트',
       itId: '38C1793938351',
       releaseDate: '2026-11-06',
@@ -149347,7 +149347,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-015',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '컨츄리체크남방',
       itId: '37C1793938349',
       releaseDate: '2026-11-06',
@@ -149377,7 +149377,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-016',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '캠퍼스맨투맨',
       itId: '36C1793938347',
       releaseDate: '2026-11-06',
@@ -149407,7 +149407,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-017',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '캠퍼베스트',
       itId: '35C1793938344',
       releaseDate: '2026-11-06',
@@ -149437,7 +149437,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-018',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '카모플라쥬팬츠',
       itId: '34C1793938342',
       releaseDate: '2026-11-06',
@@ -149467,7 +149467,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-019',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '체크후리스팬츠',
       itId: '33C1793938340',
       releaseDate: '2026-11-06',
@@ -149497,7 +149497,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-020',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '점점양털아노락',
       itId: '32C1793938336',
       releaseDate: '2026-11-06',
@@ -149527,7 +149527,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-021',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '이너실켓티',
       itId: '31C1793938333',
       releaseDate: '2026-11-06',
@@ -149557,7 +149557,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-022',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '웜브이넥맨투맨',
       itId: '30C1793938331',
       releaseDate: '2026-11-06',
@@ -149587,7 +149587,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-023',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: 'A별후드집업',
       itId: '2C1793938261',
       releaseDate: '2026-11-06',
@@ -149617,7 +149617,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-024',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '요기베어맨투맨',
       itId: '29C1793938330',
       releaseDate: '2026-11-06',
@@ -149647,7 +149647,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-025',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '아웃포켓절개팬츠(카키)',
       itId: '28C1793938329',
       releaseDate: '2026-11-06',
@@ -149677,7 +149677,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-026',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '아웃포켓절개팬츠(생지)',
       itId: '27C1793938326',
       releaseDate: '2026-11-06',
@@ -149707,7 +149707,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-027',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '스키후리스집업',
       itId: '26C1793938324',
       releaseDate: '2026-11-06',
@@ -149737,7 +149737,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-028',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '셔닐벨벳데님팬츠',
       itId: '25C1793938321',
       releaseDate: '2026-11-06',
@@ -149767,7 +149767,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-029',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '사선단작맨투맨',
       itId: '24C1793938319',
       releaseDate: '2026-11-06',
@@ -149797,7 +149797,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-030',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '삥줄세트',
       itId: '23C1793938316',
       releaseDate: '2026-11-06',
@@ -149827,7 +149827,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-031',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '빈티지인디언니트',
       itId: '22C1793938315',
       releaseDate: '2026-11-06',
@@ -149857,7 +149857,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-032',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '벨벳카펜더데님팬츠',
       itId: '21C1793938312',
       releaseDate: '2026-11-06',
@@ -149887,7 +149887,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-033',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '베프카모후드티',
       itId: '20C1793938310',
       releaseDate: '2026-11-06',
@@ -149917,7 +149917,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-034',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '버지니아후드티',
       itId: '19C1793938308',
       releaseDate: '2026-11-06',
@@ -149947,7 +149947,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-035',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '밤비반폴티',
       itId: '18C1793938305',
       releaseDate: '2026-11-06',
@@ -149977,7 +149977,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-036',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '무브절개조거팬츠',
       itId: '17C1793938302',
       releaseDate: '2026-11-06',
@@ -150007,7 +150007,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-037',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '모트단가라맨투맨',
       itId: '16C1793938300',
       releaseDate: '2026-11-06',
@@ -150037,7 +150037,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-038',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '매치스냅후드티',
       itId: '15C1793938298',
       releaseDate: '2026-11-06',
@@ -150067,7 +150067,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-039',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '랄프카라니트',
       itId: '14C1793938296',
       releaseDate: '2026-11-06',
@@ -150097,7 +150097,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-040',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '라인삥줄후드티',
       itId: '13C1793938293',
       releaseDate: '2026-11-06',
@@ -150127,7 +150127,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-041',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '라벨무지레깅스',
       itId: '12C1793938292',
       releaseDate: '2026-11-06',
@@ -150155,7 +150155,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-042',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '라그런카우맨투맨',
       itId: '11C1793938288',
       releaseDate: '2026-11-06',
@@ -150185,7 +150185,7 @@ window.HYEONMARKET_DATA = {
     {
       id: 'heyido-043',
       brandId: 'heyido',
-      brand: '헤이도도',
+      brand: '헤이도',
       name: '돌체리벳포켓팬츠',
       itId: '10C1793938284',
       releaseDate: '2026-11-06',
