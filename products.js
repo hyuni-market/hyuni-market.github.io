@@ -144340,5 +144340,24 @@ window.HYEONMARKET_DATA = {
       ],
       description: ['색상 · 베이지 / 블루', '사이즈 · 115 / 120 / 125']
     },
+    {
+      id: 'soye-058',
+      brandId: 'soye',
+      brand: '소예',
+      name: '베이스원피스',
+      itId: 'GN1244280',
+      releaseDate: '2026-11-12',
+      price: 27000,
+      categories: ['girl'],
+      itemType: 'dress',
+      colors: ['크림', '네이비', '메란지'],
+      sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/catalog/soye/1244280-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/catalog/soye/1244280-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/catalog/soye/1244280-1.webp'
+      ],
+      description: ['색상 · 크림 / 네이비 / 메란지', '사이즈 · XS / S / M / L / XL / JS']
+    },
   ]
 };
