@@ -745,7 +745,7 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="products.js?v=202611192035"></script>
+<script src="products.js?v=202611192051"></script>
 <script>
 (function () {
   'use strict';
@@ -997,12 +997,15 @@
     return hay.indexOf(q) !== -1;
   }
   /* 품목(아우터·상의·하의…)과 주니어 사이즈 구분 */
-  var JUNIOR_SIZE = /^(JS|JM|JL|JXL|JXXL|15|17|19|21|140|145|150|155|160|165)$/i;
+  var JUNIOR_SIZE = /^(JS|JM|JL|JXL|JXXL|J1|J2|J3|15|17|19|21|140|145|150|155|160|165)$/i;
+  /* 사이즈 이름이 'JS~JM(4번)', 'L(~JS)'처럼 주니어 코드를 품고 있는 경우 */
+  var JUNIOR_TOKEN = /(^|[^A-Za-z])(JS|JM|JL|JXL|JXXL|J1|J2|J3)(?=[^A-Za-z]|$)/i;
   function isJunior(p) {
     var sizes = p.sizes || [];
     for (var i = 0; i < sizes.length; i++) {
       var s = String(sizes[i]).replace(/\s/g, '');
       if (JUNIOR_SIZE.test(s)) return true;
+      if (JUNIOR_TOKEN.test(s)) return true;
       if (s.indexOf('주니어') !== -1) return true;
     }
     return String(p.name || '').indexOf('주니어') !== -1;
