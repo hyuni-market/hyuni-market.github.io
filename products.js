@@ -104,7 +104,8 @@ window.HYEONMARKET_DATA = {
       name: '오뜨베베',
       nameEn: 'HAUT BEBE',
       categories: ['bebe', 'unisex'],
-      sizeNote: 'XS~XL은 개월 수 기준이에요. 아이 키와 몸무게를 함께 보고 골라 주세요.',
+      sizeImage: 'assets/catalog/sizes/ottobebe.jpg',
+      sizeNote: 'BEBE는 BS·BM(개월), KIDS는 XS~XL(나이) 사이즈예요. 사이즈표의 키·몸무게를 함께 보고 골라 주세요.',
     },
     {
       id: 'gogopicnic',
@@ -394,6 +395,7 @@ window.HYEONMARKET_DATA = {
       name: '티티',
       nameEn: 'TITI',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/titi.jpg',
       sizeNote: 'S~XL 키즈 사이즈에 주니어 J1·J2가 있어요.',
     },
     {
@@ -401,6 +403,7 @@ window.HYEONMARKET_DATA = {
       name: '에이미',
       nameEn: 'AIMI',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/aimi.jpg',
       sizeNote: '9~19 호수 사이즈예요. 아이 키에 맞춰 골라 주세요.',
     },
     {
@@ -408,6 +411,7 @@ window.HYEONMARKET_DATA = {
       name: '버킷리스트',
       nameEn: 'BUCKET LIST',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/bucketlist.jpg',
       sizeNote: 'S~XL 키즈 사이즈에 주니어 JS~JXL이 있어요. 큰 사이즈는 추가금이 붙어요.',
     },
     {
@@ -415,6 +419,7 @@ window.HYEONMARKET_DATA = {
       name: '릴리부스',
       nameEn: 'LILY BOOTH',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/lilybooth.jpg',
       sizeNote: 'S~XL 키즈 사이즈에 주니어 JS~JL이 있어요.',
     },
     {
@@ -422,6 +427,7 @@ window.HYEONMARKET_DATA = {
       name: '그로우비',
       nameEn: 'GROW B',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/growb.jpg',
       sizeNote: 'XS~XL 키즈 사이즈에 주니어 JS·JM이 있어요.',
     },
     {
@@ -436,6 +442,7 @@ window.HYEONMARKET_DATA = {
       name: '비글',
       nameEn: 'BIGLE',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/bigle.jpg',
       sizeNote: 'XS~XL 키즈 사이즈에 주니어 JS~JL이 있어요.',
     },
     {
@@ -443,13 +450,15 @@ window.HYEONMARKET_DATA = {
       name: '벤벤느',
       nameEn: 'BENBENNEU',
       categories: ['unisex'],
-      sizeNote: 'S~XL 사이즈예요. 키와 몸무게를 함께 보고 골라 주세요.',
+      sizeImage: 'assets/catalog/sizes/benbeneu.jpg',
+      sizeNote: 'XS~XL 사이즈예요. 키와 몸무게를 함께 보고 골라 주세요.',
     },
     {
       id: 'bloombebe',
       name: '블룸베베',
       nameEn: 'BLOOM BEBE',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/bloombebe.jpg',
       sizeNote: '80~100호 베베 사이즈예요. 아이 키와 개월 수를 함께 보고 골라 주세요.',
     },
     {
@@ -457,6 +466,7 @@ window.HYEONMARKET_DATA = {
       name: '오트밀',
       nameEn: 'OATMEAL',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/oatmeal.jpg',
       sizeNote: 'XS~XL 사이즈예요. 키와 몸무게를 함께 보고 골라 주세요.',
     },
     {
@@ -488,6 +498,7 @@ window.HYEONMARKET_DATA = {
       name: '더블디',
       nameEn: 'DOUBLE DI',
       categories: ['girl'],
+      sizeImage: 'assets/catalog/sizes/doubledi.jpg',
       sizeNote: '5~15호 사이즈예요. 아이 키에 맞춰 골라 주세요.',
     },
     {
@@ -535,6 +546,7 @@ window.HYEONMARKET_DATA = {
       name: '어반래빗',
       nameEn: 'URBAN RABBIT',
       categories: ['girl'],
+      sizeImage: 'assets/catalog/sizes/urbanrabbit.jpg',
       sizeNote: 'XS~XL 키즈 사이즈에 주니어 JS·JM이 있어요.',
     },
     {
@@ -598,6 +610,7 @@ window.HYEONMARKET_DATA = {
       name: '모란',
       nameEn: 'MORAN',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/moran.jpg',
       sizeNote: 'XS~XL 사이즈에 맘 사이즈가 있어요. 사이즈표를 보고 골라 주세요.',
     },
     {
@@ -621,6 +634,7 @@ window.HYEONMARKET_DATA = {
       name: '브로디제인',
       nameEn: 'BRODIE JANE',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/brodiejane.jpg',
       sizeNote: '프리 사이즈 위주에 S·M 베베 사이즈가 있어요. 아이 개월 수와 키를 함께 보고 골라 주세요.',
     },
     {
@@ -883,7 +897,8 @@ window.HYEONMARKET_DATA = {
       name: '소예',
       nameEn: 'SOYE',
       categories: ['girl'],
-      sizeNote: 'XS~XL 키즈 사이즈에 주니어 JS 사이즈가 있어요. 상세 사진의 실측표를 함께 봐 주세요.',
+      sizeImage: 'assets/catalog/sizes/soye.jpg',
+      sizeNote: 'XS~XL 키즈 사이즈에 주니어 JS 사이즈가 있어요. 사이즈표를 함께 봐 주세요.',
     },
     {
       id: 'eji',
@@ -898,6 +913,7 @@ window.HYEONMARKET_DATA = {
       name: '빠빠',
       nameEn: 'PAPA',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/pass.jpg',
       sizeNote: 'S(~9개월)·M(~18개월) 베베 사이즈예요. 아이 개월 수와 몸무게를 함께 보고 골라 주세요.',
     },
     {
@@ -905,6 +921,7 @@ window.HYEONMARKET_DATA = {
       name: '베베나인',
       nameEn: 'BEBE NINE',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/bebenine.jpg',
       sizeNote: '12M·18M·24M 베베 사이즈예요. 아이 개월 수와 키를 함께 보고 골라 주세요.',
     },
     {
@@ -912,6 +929,7 @@ window.HYEONMARKET_DATA = {
       name: '마론',
       nameEn: 'MARON',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/maron.jpg',
       sizeNote: '6M·12M·18M 베베 사이즈예요. 아이 개월 수와 키를 함께 보고 골라 주세요.',
     },
     {
@@ -919,6 +937,7 @@ window.HYEONMARKET_DATA = {
       name: '퐁듀',
       nameEn: 'FONDUE',
       categories: ['bebe'],
+      sizeImage: 'assets/catalog/sizes/pongdu.jpg',
       sizeNote: 'TINY01(6-12m)·TINY02(12-18m)와 bebeS(0-6m)·bebeM(6-12m) 베베 사이즈예요.',
     },
     {
@@ -926,6 +945,7 @@ window.HYEONMARKET_DATA = {
       name: '아오스타',
       nameEn: 'AOSTA',
       categories: ['unisex'],
+      sizeImage: 'assets/catalog/sizes/aosta.jpg',
       sizeNote: 'S~XXL 키즈 사이즈와 FREE 사이즈예요. 아이 키와 몸무게를 함께 보고 골라 주세요.',
     },
   ],
