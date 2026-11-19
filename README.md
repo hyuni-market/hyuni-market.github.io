@@ -153,3 +153,13 @@ LD_LIBRARY_PATH=/workspace/.libs/usr/lib/x86_64-linux-gnu python3 tests/verify_s
 브랜드 폴더·카테고리·품목 필터·브랜드 드롭다운·검색·브랜드 진입/뒤로가기(히스토리·플로팅 버튼)·
 상세 갤러리·옵션 다중 선택·장바구니·토스트 크기·이미지 로드까지 점검하고,
 `preview-*.png` 스크린샷을 새로 만듭니다.
+
+## 방문자 통계 (GoatCounter)
+
+`index.html` 맨 아래에 GoatCounter 스크립트가 들어 있습니다 (`https://hyuni-market.goatcounter.com/count`).
+방문자에게는 아무 숫자도 보이지 않고, 통계는 **로그인한 사람만** 볼 수 있게 설정되어 있습니다
+(GoatCounter → Settings → Dashboard viewable by: *Only logged in users*).
+브랜드 열람·상품 상세·장바구니 담기는 이벤트(`/브랜드/…`, `/상품/…`, `/장바구니/…`)로 함께 기록됩니다.
+
+카테고리 탭 다섯 개(`전체·베베룩·여아룩·남녀공용·주니어`)는 폰 화면(≤430px)에서
+한 줄에 꼭 맞게 들어가도록 `.cat-bar`·`.cat-pill` 미디어 쿼리로 조정했습니다.

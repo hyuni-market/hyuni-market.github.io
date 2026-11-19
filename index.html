@@ -117,6 +117,15 @@
   .cat-pill:hover{border-color:#e7d9c5;background:var(--soft)}
   .cat-pill[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
   .cat-pill[aria-pressed="true"]:hover{background:var(--ink)}
+  /* 폰 화면: 카테고리 다섯 개가 한 줄에 꽉 차게 (주니어만 아래로 내려가지 않도록) */
+  @media(max-width:430px){
+    .cat-bar{flex-wrap:nowrap;gap:6px}
+    .cat-pill{flex:1 1 0;min-width:0;padding:8px 4px;font-size:12.5px;letter-spacing:-.2px;text-align:center}
+  }
+  @media(max-width:360px){
+    .cat-bar{gap:5px}
+    .cat-pill{font-size:12px;padding:7px 3px}
+  }
 
   /* ── 검색 / 필터 ───────────────────────────────────────── */
   .filters{display:grid;grid-template-columns:1fr;gap:8px;padding-bottom:8px}
@@ -1351,9 +1360,22 @@
     window.scrollTo(0, homeScroll || 0);
   }
 
+  /* ── 방문자 통계 (GoatCounter) ─────────────────────────
+     통계는 사장님만 로그인해서 보고, 방문자에게는 아무것도 보이지 않아요.
+     광고차단 프로그램이 통계 스크립트를 막아도 오류가 나지 않게 조용히 넘어갑니다. */
+  function trackEvent(path, title) {
+    try {
+      if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+        window.goatcounter.count({ path: path, title: title || path, event: true });
+      }
+    } catch (e) {}
+  }
+
   function openBrand(brandId) {
-    if (!brandById(brandId)) return;
+    var brand = brandById(brandId);
+    if (!brand) return;
     if (view === 'brand' && brandViewId === brandId) return;
+    trackEvent('/브랜드/' + brand.name, brand.name);
     homeScroll = window.pageYOffset || document.documentElement.scrollTop || 0;
     applyBrandView(brandId);
     pushUI();
@@ -1373,6 +1395,7 @@
   function openDetail(productId, opts) {
     var p = productById(productId);
     if (!p) return;
+    trackEvent('/상품/' + p.brand + '/' + p.name, p.brand + ' · ' + p.name);
     detailState = {
       productId: p.id,
       color: (p.colors && p.colors.length === 1) ? p.colors[0] : '',
@@ -1589,6 +1612,8 @@
     } else {
       cart.push({ productId: productId, color: color, size: size, qty: Math.min(99, qty) });
     }
+    var added = productById(productId);
+    if (added) trackEvent('/장바구니/' + added.brand, added.brand);
     save();
     renderCart();
     renderBadge();
@@ -2093,5 +2118,7 @@
   };
 })();
 </script>
+<!-- 방문자 통계 (GoatCounter) · 방문자에게는 보이지 않고, 숫자는 사장님만 로그인해서 봐요 -->
+<script data-goatcounter="https://hyuni-market.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
