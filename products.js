@@ -144352,10 +144352,10 @@ window.HYEONMARKET_DATA = {
       itemType: 'dress',
       colors: ['크림', '네이비', '메란지'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/catalog/soye/1244280-t.webp',
-      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/catalog/soye/1244280-1.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244280-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244280-1.webp',
       detailImages: [
-        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/catalog/soye/1244280-1.webp'
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/soye/1244280-1.webp'
       ],
       description: ['색상 · 크림 / 네이비 / 메란지', '사이즈 · XS / S / M / L / XL / JS']
     },
