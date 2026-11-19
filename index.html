@@ -514,8 +514,6 @@
   .type-bar{
     display:flex;gap:6px;overflow-x:auto;padding:0 0 12px;
     -webkit-overflow-scrolling:touch;scrollbar-width:none;
-    -webkit-mask-image:linear-gradient(to right, #000 calc(100% - 26px), transparent 100%);
-    mask-image:linear-gradient(to right, #000 calc(100% - 26px), transparent 100%);
   }
   .type-bar::-webkit-scrollbar{display:none}
   .type-pill{
@@ -526,7 +524,28 @@
   .type-pill:hover{background:var(--soft);border-color:#e7d9c5}
   .type-pill[aria-pressed="true"]{background:var(--accent-soft);border-color:#e2c9a8;color:var(--accent-deep)}
   .type-pill.is-empty{display:none}
-  .sub-bar{padding-top:0;margin-top:-4px}
+  /* 2번째 줄 품목 필터는 밑줄 탭으로 (위·아래 얇은 구분선) */
+  #typeBar{
+    gap:14px;flex-wrap:nowrap;padding:0 2px;margin:2px 0 12px;
+    border-top:1px solid #efe5d6;border-bottom:1px solid #efe5d6;
+  }
+  #typeBar:empty{display:none}
+  #typeBar .type-pill{
+    flex:0 0 auto;border:none;background:transparent;border-radius:0;padding:10px 2px;
+    font-size:13.5px;font-weight:600;color:#8c7b68;cursor:pointer;white-space:nowrap;
+    border-bottom:2.5px solid transparent;
+    transition:color .16s ease,border-color .16s ease;
+  }
+  #typeBar .type-pill:hover{color:#2f261e;background:transparent}
+  #typeBar .type-pill[aria-pressed="true"]{
+    color:#2f261e;font-weight:800;background:transparent;border-bottom-color:#2f261e;
+  }
+  /* 3번째 줄 하위 분류는 부드러운 알약 모양 그대로 */
+  .sub-bar{
+    padding-top:0;margin-top:-6px;
+    -webkit-mask-image:linear-gradient(to right, #000 calc(100% - 26px), transparent 100%);
+    mask-image:linear-gradient(to right, #000 calc(100% - 26px), transparent 100%);
+  }
   .sub-bar[hidden]{display:none}
   .sub-bar .type-pill{background:var(--soft);font-size:12px;padding:6px 11px}
   .sub-bar .type-pill[aria-pressed="true"]{background:var(--accent-soft);border-color:#e2c9a8;color:var(--accent-deep)}
