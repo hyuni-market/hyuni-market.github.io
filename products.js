@@ -999,7 +999,8 @@ window.HYEONMARKET_DATA = {
       name: '아르아르',
       nameEn: 'AR AR',
       categories: ['bebe'],
-      sizeNote: '1~5호 베베 사이즈예요. 패딩·조끼는 3~5호만 있어요.',
+      sizeImage: 'assets/catalog/sizes/aruaru.jpg',
+      sizeNote: '1호(80-88cm) · 2호(88-96cm) · 3호(96-104cm) · 4호(104-112cm) · 5호(112-125cm) 기준이에요. 패딩·조끼는 3~5호만 있어요.',
     },
   ],
 
