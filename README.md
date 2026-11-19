@@ -12,7 +12,9 @@ hyeonmarket/
 ├── index.html                     화면 전체 (디자인 + 동작)
 ├── products.js                    상품·브랜드·사이즈표 데이터  ← 수정은 여기만
 ├── assets/
-│   ├── logo.png                   가게 로고
+│   ├── logo.png                   가게 로고 (손글씨 가로형, 배경 투명 · 헤더·푸터)
+│   ├── og-logo.png                카톡 공유 미리보기 이미지 1200×630 (크림 배경)
+│   ├── logo-icon.png              파비콘·홈화면 아이콘 512×512 (노란 바탕 + 혀)
 │   ├── size-minirobe.jpg          미니로브 원본 사이즈표
 │   └── catalog/
 │       └── sizes/                 브랜드별 사이즈표 (83개 브랜드)
