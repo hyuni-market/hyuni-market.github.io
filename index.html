@@ -410,6 +410,11 @@
   .cart-head-count{color:var(--accent-deep);font-weight:800}
   /* 상품 목록 + 배송 방법 + 합계가 한 영역에서 자연스럽게 이어져 스크롤됨 */
   .cart-body{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:4px 0 0}
+  .cart-list-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 16px 4px}
+  .cart-list-head span{font-size:11.5px;font-weight:700;color:#9a8b78;letter-spacing:-.1px}
+  .cart-clear{background:none;border:0;padding:2px 0;font-family:inherit;font-size:11.5px;font-weight:700;color:#a2907a;
+    text-decoration:underline;text-underline-offset:2px;cursor:pointer;letter-spacing:-.1px}
+  .cart-clear:hover{color:#7d6a54}
   .cart-empty{text-align:center;padding:64px 24px;color:var(--sub)}
   .cart-empty .emoji{font-size:34px;display:block;margin-bottom:12px}
   .cart-empty p{margin:0 0 18px;font-size:13.5px}
@@ -819,7 +824,7 @@
     return delivery === 'combined' ? SHOP.combinedShippingFee : SHOP.shippingFee;
   }
   function shippingLabel() {
-    return delivery === 'combined' ? '합배송' : '일반 배송';
+    return delivery === 'combined' ? '합배송(추가주문)' : '일반 배송';
   }
   function grandTotal() { return subtotal() + shippingFee(); }
 
@@ -1041,7 +1046,7 @@
     var sel = document.getElementById('brandSelect');
     if (!sel) return;
     var opts = ['<option value="">전체 브랜드</option>'];
-    DATA.brands.forEach(function (b) {
+    DATA.brands.slice().sort(function (a, b) { return a.name.localeCompare(b.name, 'ko'); }).forEach(function (b) {
       var n = DATA.products.filter(function (p) { return p.brandId === b.id && inCategory(p); }).length;
       if (!n) return;
       opts.push('<option value="' + esc(b.id) + '">' + esc(b.name) + ' (' + n + ')</option>');
@@ -1631,7 +1636,10 @@
     }
     foot.classList.remove('is-empty');
 
-    body.innerHTML = cart.map(function (it, i) {
+    body.innerHTML =
+      '<div class="cart-list-head"><span>담은 상품 ' + cartCount() + '개</span>' +
+        '<button class="cart-clear" type="button" id="clearCartBtn">장바구니 비우기</button></div>' +
+      cart.map(function (it, i) {
       var p = productById(it.productId);
       return '' +
         '<div class="cart-item" data-index="' + i + '">' +
@@ -1660,9 +1668,9 @@
         '</label>' +
         '<label class="radio">' +
           '<input type="radio" name="delivery" value="combined"' + (delivery === 'combined' ? ' checked' : '') + ' />' +
-          '<span>합배송</span><span class="price">' + won(SHOP.combinedShippingFee) + '</span>' +
+          '<span>합배송(추가주문)</span><span class="price">' + won(SHOP.combinedShippingFee) + '</span>' +
         '</label>' +
-        '<p class="delivery-hint">합배송은 다른 주문과 함께 받으실 때 선택해 주세요. 배송비가 0원이에요.</p>' +
+        '<p class="delivery-hint">합배송(추가주문)은 다른 주문과 함께 받으실 때 선택해 주세요. 배송비가 0원이에요.</p>' +
       '</div>' +
       '<div class="summary">' +
         '<div class="sum-row"><span>상품 합계</span><span>' + won(subtotal()) + '</span></div>' +
@@ -1680,7 +1688,18 @@
       '</div>';
   }
 
+  function clearCart() {
+    if (!cart.length) return;
+    cart = [];
+    delivery = 'normal';
+    save();
+    renderCart();
+    renderBadge();
+    toast('장바구니를 비웠어요');
+  }
+
   document.getElementById('cartBody').addEventListener('click', function (e) {
+    if (e.target.closest('#clearCartBtn')) { clearCart(); return; }
     var qbtn = e.target.closest('[data-cart-qty]');
     var dbtn = e.target.closest('[data-cart-del]');
     if (qbtn) {
