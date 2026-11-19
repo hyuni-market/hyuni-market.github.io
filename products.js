@@ -953,6 +953,7 @@ window.HYEONMARKET_DATA = {
       name: '세븐틴',
       nameEn: 'SEVENTEEN',
       categories: ['unisex'],
+      sizeNote: '11·13·15·17호 주니어 라인 정사이즈 기준이에요. (참고: 141cm · 28kg 모델 13호 착용 / 11호 ~130cm · 13호 ~140cm · 15호 ~150cm · 17호 ~160cm)',
     },
     {
       id: 'heyido',

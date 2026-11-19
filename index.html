@@ -791,8 +791,10 @@
     return null;
   }
   function brandOf(p) { return brandById(p.brandId) || { name: p.brand, sizeTable: null }; }
-  function hasSizeChart(b) { return !!(b && (b.sizeImage || b.sizeTable)); }
-  function sizeChartLabel(p) { return '📏 ' + brandOf(p).name + ' 사이즈표'; }
+  function hasSizeChart(b) { return !!(b && (b.sizeImage || b.sizeTable || b.sizeNote)); }
+  /* 표·이미지가 없고 안내 문구만 있는 브랜드는 '사이즈 안내'로 부른다 */
+  function sizeWord(b) { return (b && (b.sizeImage || b.sizeTable)) ? '사이즈표' : '사이즈 안내'; }
+  function sizeChartLabel(p) { var b = brandOf(p); return '📏 ' + b.name + ' ' + sizeWord(b); }
   /* 사이즈별 추가금이 있는 상품은 옵션 가격이 달라져요 */
   function unitPrice(p, size) {
     var add = (p.sizeAdd && size && p.sizeAdd[size]) ? p.sizeAdd[size] : 0;
@@ -1169,7 +1171,7 @@
     document.getElementById('brandHeadName').textContent = b.name;
     document.getElementById('brandHeadCount').textContent = n + '개 상품';
     document.getElementById('brandHeadActions').innerHTML = hasSizeChart(b)
-      ? '<button class="size-link" type="button" data-size-brand="' + esc(b.id) + '">' + esc('📏 ' + b.name + ' 사이즈표') + '</button>'
+      ? '<button class="size-link" type="button" data-size-brand="' + esc(b.id) + '">' + esc('📏 ' + b.name + ' ' + sizeWord(b)) + '</button>'
       : '';
   }
 
@@ -1881,10 +1883,10 @@
 
   /* 상품 상세 안에 바로 붙는 브랜드 사이즈표 */
   function inlineSizeChartHtml(b) {
-    if (!b || (!b.sizeTable && !b.sizeImage)) return '';
+    if (!b || (!b.sizeTable && !b.sizeImage && !b.sizeNote)) return '';
     var html = '<section class="detail-size" id="detailSizeChart" aria-labelledby="detailSizeTitle">' +
       '<div class="detail-size-head">' +
-        '<h4 id="detailSizeTitle">📏 ' + esc(b.name) + ' 사이즈표</h4>' +
+        '<h4 id="detailSizeTitle">📏 ' + esc(b.name) + ' ' + esc(sizeWord(b)) + '</h4>' +
         (b.nameEn ? '<span>' + esc(b.nameEn) + '</span>' : '') +
       '</div>' +
       sizeChartBodyHtml(b, 'detail-size-figure');
