@@ -11,10 +11,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Quicksand:wght@400;500;600;700&display=swap" />
 <meta property="og:title" content="혀니마켓 | 예쁜 아동복" />
 <meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 액세서리 · 잡화 · 슈즈" />
-<meta property="og:image" content="https://hyuni-market.github.io/assets/logo.png" />
+<meta property="og:image" content="https://hyuni-market.github.io/assets/og-logo.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="혀니마켓 손글씨 로고" />
 <meta property="og:url" content="https://hyuni-market.github.io/" />
-<link rel="icon" type="image/png" href="assets/logo.png" />
-<link rel="apple-touch-icon" href="assets/logo.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="assets/logo-icon.png" />
+<link rel="apple-touch-icon" sizes="512x512" href="assets/logo-icon.png" />
 <style>
   :root{
     --ink:#2f2620;
@@ -51,14 +55,16 @@
     border-bottom:1px solid var(--line);
   }
   .topbar-inner{
-    max-width:1080px;margin:0 auto;padding:11px 16px;
+    max-width:1080px;margin:0 auto;padding:10px 16px;
     display:flex;align-items:center;gap:10px;
   }
   .logo{display:flex;align-items:center;gap:8px;font-size:19px;font-weight:800;letter-spacing:-.5px;text-decoration:none;color:var(--ink)}
+  /* 손글씨 로고(가로형) — 좌우로 크게, 버튼과 겹치지 않게 */
   .logo-mark{
-    width:32px;height:32px;border-radius:12px;flex:0 0 auto;display:block;
-    object-fit:cover;background:#ffe14d;
-    box-shadow:0 2px 8px rgba(190,150,40,.26);
+    width:clamp(112px,36vw,148px);height:auto;max-width:100%;flex:0 1 auto;display:block;
+  }
+  @media(min-width:700px){
+    .logo-mark{width:170px}
   }
   .top-actions{margin-left:auto;display:flex;align-items:center;gap:7px}
   .pill-size{
@@ -541,8 +547,7 @@
   /* ── 푸터 ──────────────────────────────────────────────── */
   .site-foot{border-top:1px solid var(--line);padding:26px 16px 40px;text-align:center;color:var(--sub);font-size:11.5px;line-height:1.8}
   .foot-logo{
-    width:110px;height:110px;display:block;margin:0 auto 14px;border-radius:20px;
-    box-shadow:0 8px 20px rgba(190,150,40,.22);
+    width:190px;height:auto;display:block;margin:0 auto 14px;
   }
   .site-foot strong{color:#574a3d;font-weight:800;font-size:12.5px;letter-spacing:-.2px}
   .site-foot .foot-links{margin-top:8px;font-size:11px;color:#a99c8c}
@@ -571,8 +576,7 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="logo" id="homeLogo" href="./" aria-label="혀니마켓 홈">
-      <img class="logo-mark" src="assets/logo.png" alt="혀니마켓 로고" width="32" height="32" />
-      <span>혀니마켓</span>
+      <img class="logo-mark" src="assets/logo.png?v=2" alt="혀니마켓 로고" width="720" height="338" />
     </a>
     <div class="top-actions">
       <button class="pill-size" id="topSizeBtn" type="button">📏 사이즈표</button>
@@ -649,7 +653,7 @@
 </main>
 
 <footer class="site-foot">
-  <img class="foot-logo" src="assets/logo.png" alt="혀니마켓 로고" loading="lazy" width="110" height="110" />
+  <img class="foot-logo" src="assets/logo.png?v=2" alt="혀니마켓 로고" loading="lazy" width="720" height="338" />
   <div><strong>혀니마켓</strong></div>
   <div>남대문아동복도매 · 공동구매</div>
   <div class="foot-links">배송비 3,500원 · 합배송 0원 선택 가능</div>
