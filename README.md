@@ -20,10 +20,14 @@ hyeonmarket/
 └── tests/verify_site.py           동작 자동 점검 스크립트
 ```
 
-상품 사진은 **별도 저장소 `hyuni-market/hyuni-assets`** 에 있습니다.
+상품 사진은 **사진 전용 저장소 3곳**에 나눠 담겨 있습니다 (GitHub 1GB 한도 안으로).
 `https://raw.githubusercontent.com/hyuni-market/hyuni-assets/main/catalog/{brandId}/001-1.webp`
-(상품당 최대 12장, 540px WebP · 카드 썸네일 `001-t.webp` 400px 정사각)
-사진 주소는 `products.js` 안에 절대 주소로 들어 있으므로, 사진을 바꾸려면 그 저장소에 올리면 됩니다.
+`https://raw.githubusercontent.com/hyuni-market/hyuni-assets-2/main/catalog/{brandId}/001-1.webp`
+`https://raw.githubusercontent.com/hyuni-market/hyuni-assets-3/main/catalog/{brandId}/001-1.webp`
+(상품당 상세 사진 최대 12장, **폭 850px WebP q76** · 카드 썸네일 `001-t.webp` **600×600** q76)
+어느 브랜드가 어느 저장소에 있는지는 `products.js`의 사진 주소에 그대로 적혀 있습니다.
+세 저장소는 브랜드 35개씩 942MB로 균등하게 나눴습니다(1군 hyuni-assets / 2군 hyuni-assets-2 / 3군 hyuni-assets-3).
+사진을 바꾸려면 그 브랜드가 들어 있는 저장소의 같은 경로에 올리면 됩니다.
 
 배포는 `index.html`, `products.js`, `assets/` 세 가지만 `deploy-hyeonmarket/` 로 복사해 올립니다.
 `preview-*.png`와 `tests/`는 확인용이라 올리지 않습니다.
@@ -39,7 +43,7 @@ hyeonmarket/
 | 카테고리 | 베베룩 · 여아룩 · 남녀공용 · 잡화 · 신발·부츠 (＋전체) |
 | 브랜드 | **105개** (고유 베베·고유, 앙꼬 베베·앙꼬처럼 사이즈로 나눈 폴더 포함) |
 | 상품 | **5,017개** — 전부 **겨울 시즌** 상품, 판매가 = **공급가 + 3,000원** (사이즈 추가금은 키즈빌리지 옵션가 그대로) |
-| 상품 사진 | 상품마다 상세 사진 최대 12장(3차 브랜드는 8장) + 카드 썸네일 1장 (총 52,937장·1.1GB, hyuni-assets 저장소) |
+| 상품 사진 | 상품마다 상세 사진 최대 12장(3차 브랜드는 8장) + 카드 썸네일 1장 (총 48,553장·2.8GB, 사진 저장소 3곳에 분산) |
 | 브랜드 사이즈표 | 83개 브랜드 |
 | 품목 필터 | 전체 · 아우터 · 상의 · 하의 · 상하세트 · 원피스 · 실내복 · 주니어 |
 
