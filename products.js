@@ -992,7 +992,8 @@ window.HYEONMARKET_DATA = {
       name: '닷',
       nameEn: 'DOT',
       categories: ['bebe'],
-      sizeNote: '1~4호 베베 사이즈예요. 아이 개월 수와 키를 함께 보고 골라 주세요.',
+      sizeImage: 'assets/catalog/sizes/dat.jpg',
+      sizeNote: '1호(60-70cm) · 2호(70-80cm) · 3호(80-90cm) · 4호(90-100cm) 기준이에요.',
     },
     {
       id: 'aruaru',
