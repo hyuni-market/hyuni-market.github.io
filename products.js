@@ -21541,7 +21541,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/doremi/113-j12.webp'
       ],
       description: ['색상 · 크림 / 멜란지 / 차콜 / 페일블랙 / 리치블랙 / 인디핑크 / 라즈베리 / 버건디 / 퍼플 / 베이비블루 / 제이드민트 / 모나코블루 / 블루네이비 / 버터컵 / 머스타드 / 그린빈 / 카키 / 베이지 / 티크오렌지 / 카멜 / 브라운 / 오프화이트 / 오트밀 / 헤더브라운 / 베이비핑크 / 파스텔민트 / 레몬 / 라일락', '사이즈 · BABY / 1 / 2 / 3 / 4 / 5']
-    }
+    },
     {
       id: 'doremi-038',
       brandId: 'doremi',
