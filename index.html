@@ -4,13 +4,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>혀니마켓 | 예쁜 아동복</title>
-<meta name="description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 잡화 · 신발·부츠" />
+<meta name="description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 액세서리 · 잡화 · 슈즈" />
 <meta name="theme-color" content="#fffdf8" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Quicksand:wght@400;500;600;700&display=swap" />
 <meta property="og:title" content="혀니마켓 | 예쁜 아동복" />
-<meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 잡화 · 신발·부츠" />
+<meta property="og:description" content="남대문아동복 최저마진 공동구매 · 베베룩 · 여아룩 · 남녀공용 · 주니어 · 액세서리 · 잡화 · 슈즈" />
 <meta property="og:image" content="https://hyuni-market.github.io/assets/logo.png" />
 <meta property="og:url" content="https://hyuni-market.github.io/" />
 <link rel="icon" type="image/png" href="assets/logo.png" />
@@ -506,6 +506,10 @@
   .type-pill:hover{background:var(--soft);border-color:#e7d9c5}
   .type-pill[aria-pressed="true"]{background:var(--accent-soft);border-color:#e2c9a8;color:var(--accent-deep)}
   .type-pill.is-empty{display:none}
+  .sub-bar{padding-top:0;margin-top:-4px}
+  .sub-bar[hidden]{display:none}
+  .sub-bar .type-pill{background:var(--soft);font-size:12px;padding:6px 11px}
+  .sub-bar .type-pill[aria-pressed="true"]{background:var(--accent-soft);border-color:#e2c9a8;color:var(--accent-deep)}
 
   /* ── 플로팅 뒤로가기 ──────────────────────────────────── */
   .back-fab{
@@ -585,6 +589,7 @@
 
     <nav class="cat-bar" id="catBar" aria-label="카테고리"></nav>
     <nav class="type-bar" id="typeBar" aria-label="품목 필터"></nav>
+    <nav class="type-bar sub-bar" id="subBar" aria-label="하위 분류" hidden></nav>
 
     <section class="filters" aria-label="상품 검색">
       <div class="field">
@@ -715,7 +720,7 @@
   /* ── 상태 ─────────────────────────────────────────────── */
   var cart = [];                 // [{productId, color, size, qty}]
   var delivery = 'normal';       // 'normal' | 'combined'
-  var filter = { q: '', category: 'all', itemType: 'all' };
+  var filter = { q: '', category: 'all', itemType: 'all', subcat: 'all' };
   var view = 'home';             // 'home' = 브랜드 폴더 | 'brand' = 브랜드 안 상품
   var brandViewId = null;
   var sortMode = 'latest';       // 'latest' | 'name' | 'count'
@@ -963,15 +968,38 @@
     }
     return String(p.name || '').indexOf('주니어') !== -1;
   }
+  var NONCLOTH = { acc: 1, goods: 1, shoes: 1 };
+  function isNonClothType(t) { return !!NONCLOTH[t || filter.itemType]; }
+  function subTypesOf(t) {
+    if (t === 'acc') return DATA.accTypes || [];
+    if (t === 'goods') return DATA.goodsTypes || [];
+    if (t === 'shoes') return DATA.shoeTypes || [];
+    return [];
+  }
+  /* 상하세트는 '전체'에서 볼 때 베베룩 전용 상품을 빼고 보여 줍니다 (여아룩·남녀공용·주니어만) */
+  function setShownInAll(p) {
+    var cats = p.categories || (p.category ? [p.category] : []);
+    return cats.indexOf('girl') !== -1 || cats.indexOf('unisex') !== -1;
+  }
+  function typeMatches(p, t, category) {
+    if (!t || t === 'all') return true;
+    if ((p.itemType || 'etc') !== t) return false;
+    if (t === 'set' && (category || 'all') === 'all' && !setShownInAll(p)) return false;
+    return true;
+  }
   function inItemType(p) {
     var t = filter.itemType;
     if (!t || t === 'all') return true;
     if (t === 'junior') return isJunior(p);
-    return (p.itemType || 'etc') === t;
+    if (!typeMatches(p, t, filter.category)) return false;
+    if (isNonClothType(t) && filter.subcat && filter.subcat !== 'all') return p.subcat === filter.subcat;
+    return true;
   }
   function itemTypeName(id) {
-    var list = DATA.itemTypes || [];
-    for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i].name;
+    var lists = [DATA.itemTypes || [], DATA.accTypes || [], DATA.goodsTypes || [], DATA.shoeTypes || []];
+    for (var j = 0; j < lists.length; j++) {
+      for (var i = 0; i < lists[j].length; i++) if (lists[j][i].id === id) return lists[j][i].name;
+    }
     return '';
   }
   function scopedProducts() {
@@ -988,7 +1016,7 @@
     if (!bar) return;
     var base = (DATA.categories || []).slice();
     var cats = [{ id: 'all', name: '전체' }].concat(base);
-    /* 주니어는 품목이 아니라 상단 카테고리: 남녀공용 다음, 잡화 앞에 놓습니다 */
+    /* 주니어는 품목이 아니라 상단 카테고리: 남녀공용 다음, 액세서리 앞에 놓습니다 */
     var jAt = -1;
     for (var i = 0; i < cats.length; i++) {
       if (cats[i].id === 'unisex') { jAt = i + 1; break; }
@@ -1033,7 +1061,7 @@
     });
     var html = types.map(function (t) {
       var n = base.filter(function (p) {
-        return t.id === 'all' ? true : (p.itemType || 'etc') === t.id;
+        return t.id === 'all' ? true : typeMatches(p, t.id, filter.category);
       }).length;
       var empty = (view === 'brand' && t.id !== 'all' && !n);
       var label = t.name + (view === 'brand' && t.id !== 'all' && n ? ' ' + n : '');
@@ -1041,6 +1069,28 @@
         '" aria-pressed="' + (filter.itemType === t.id) + '">' + esc(label) + '</button>';
     }).join('');
     bar.innerHTML = html;
+    renderSubBar();
+  }
+
+  function renderSubBar() {
+    var bar = document.getElementById('subBar');
+    if (!bar) return;
+    var t = filter.itemType;
+    if (!isNonClothType(t)) { bar.hidden = true; bar.innerHTML = ''; return; }
+    var types = subTypesOf(t);
+    if (!types.length) { bar.hidden = true; bar.innerHTML = ''; return; }
+    var base = DATA.products.filter(function (p) {
+      if (!inCategory(p)) return false;
+      if (view === 'brand' && p.brandId !== brandViewId) return false;
+      return typeMatches(p, t, filter.category);
+    });
+    bar.innerHTML = types.map(function (x) {
+      var n = x.id === 'all' ? base.length : base.filter(function (p) { return p.subcat === x.id; }).length;
+      var empty = (x.id !== 'all' && !n);
+      return '<button class="type-pill' + (empty ? ' is-empty' : '') + '" type="button" data-sub="' + esc(x.id) +
+        '" aria-pressed="' + ((filter.subcat || 'all') === x.id) + '">' + esc(x.name + (empty ? '' : ' ' + n)) + '</button>';
+    }).join('');
+    bar.hidden = false;
   }
 
   function updateChips() {
@@ -1875,6 +1925,7 @@
     if (!btn) return;
     filter.category = btn.getAttribute('data-cat');
     filter.itemType = 'all';
+    filter.subcat = 'all';
     resetPaging();
     renderCategories();
     renderAll();
@@ -1886,6 +1937,16 @@
     if (!btn) return;
     var next = btn.getAttribute('data-type');
     filter.itemType = (filter.itemType === next) ? 'all' : next;
+    filter.subcat = 'all';
+    resetPaging();
+    renderAll();
+  });
+
+  document.getElementById('subBar').addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-sub]');
+    if (!btn) return;
+    var next = btn.getAttribute('data-sub');
+    filter.subcat = (filter.subcat === next) ? 'all' : next;
     resetPaging();
     renderAll();
   });
@@ -1963,7 +2024,7 @@
     if (Date.now() - start.time > 900) return;
     if (dx < 80 || Math.abs(dy) > 50) return;
     var el = start.el;
-    if (el && el.closest && el.closest('.type-bar, .cat-bar, .chips, .sizes, .swatches, .stepper, input, textarea, .picks')) return;
+    if (el && el.closest && el.closest('.type-bar, .cat-bar, .sub-bar, .chips, .sizes, .swatches, .stepper, input, textarea, .picks')) return;
     if (!document.querySelector('.modal.open') && view !== 'brand') return;
     backToBrands();
   }, { passive: true });
