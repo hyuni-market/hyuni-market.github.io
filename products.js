@@ -155818,5 +155818,80 @@ window.HYEONMARKET_DATA = {
       ],
       description: ['색상 · 네이비 / 브라운', '사이즈 · FREE']
     },
+    {
+      id: 'haru-001',
+      brandId: 'haru',
+      brand: '하루',
+      name: '진핑포니세트',
+      itId: '21C1795065946',
+      releaseDate: '2026-11-19',
+      price: 30000,
+      categories: ['girl'],
+      itemType: 'set',
+      colors: ['진핑'],
+      colorHex: { '진핑': '#d9437a' },
+      sizes: ['3', '5', '7', '9', '11'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/001-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/001-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/001-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/001-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/001-3.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/001-4.webp'
+      ],
+      description: ['색상 · 진핑', '사이즈 · 3 / 5 / 7 / 9 / 11']
+    },
+    {
+      id: 'haru-002',
+      brandId: 'haru',
+      brand: '하루',
+      name: '레이스맨투맨',
+      itId: '20C1795065946',
+      releaseDate: '2026-11-19',
+      price: 16000,
+      categories: ['girl'],
+      itemType: 'top',
+      colors: ['진핑', '보라'],
+      colorHex: { '진핑': '#d9437a', '보라': '#9b7fbf' },
+      sizes: ['3', '5', '7', '9', '11'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-3.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-4.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-5.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/002-6.webp'
+      ],
+      description: ['색상 · 진핑 / 보라', '사이즈 · 3 / 5 / 7 / 9 / 11']
+    },
+    {
+      id: 'haru-003',
+      brandId: 'haru',
+      brand: '하루',
+      name: '래빗고쟁이',
+      itId: '19C1795065945',
+      releaseDate: '2026-11-19',
+      price: 16000,
+      categories: ['girl'],
+      itemType: 'bottom',
+      colors: ['핑크', '블루'],
+      colorHex: { '핑크': '#e9a7b8', '블루': '#7fb2d9' },
+      sizes: ['3', '5', '7', '9', '11'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-3.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-4.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-5.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-6.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-7.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/haru/003-8.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · 3 / 5 / 7 / 9 / 11']
+    },
   ]
 };
