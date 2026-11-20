@@ -745,7 +745,7 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="products.js?v=202611201012"></script>
+<script src="products.js?v=202611201155"></script>
 <script>
 (function () {
   'use strict';
@@ -1559,6 +1559,21 @@
         '</div>' +
         (gallery ? '<div class="detail-gallery">' + gallery + '</div>' : '') +
       '</div>';
+    fixDetailMainImage(wrap, p);
+  }
+
+  /* 도매 상세컷처럼 아주 길쭉한 사진이 대표 사진으로 쓰이면, 카드 썸네일로 바꿔 보여 줘요. */
+  function fixDetailMainImage(root, p) {
+    var img = root.querySelector('.detail-main');
+    if (!img || !p || !p.thumb) return;
+    if (img.getAttribute('src') === p.thumb) return;
+    var apply = function () {
+      var w = img.naturalWidth, h = img.naturalHeight;
+      if (!w || !h) return;
+      if (h / w > 1.5) img.src = p.thumb;
+    };
+    if (img.complete && img.naturalWidth) apply();
+    else img.addEventListener('load', apply, { once: true });
   }
 
   function updateDetailTotals() {
@@ -1637,7 +1652,7 @@
       cart.push({ productId: productId, color: color, size: size, qty: Math.min(99, qty) });
     }
     var added = productById(productId);
-    if (added) trackEvent('/장바구니/' + added.brand, added.brand);
+    if (added) trackEvent('/장바구니/' + added.brand + '/' + added.name, added.brand + ' · ' + added.name);
     save();
     renderCart();
     renderBadge();
