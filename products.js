@@ -142542,6 +142542,2246 @@ window.HYEONMARKET_DATA = {
       description: ['색상 · 베이지 / 블루', '사이즈 · 115 / 120 / 125']
     },
     {
+      id: 'eji-021',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '팀스팽딩부츠',
+      itId: 'GN1243363',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '블랙', '핑크'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243363-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243363-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243363-1.webp'
+      ],
+      description: ['색상 · 아이 / 블랙 / 핑크', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-022',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '첼시털어그',
+      itId: 'GN1243362',
+      releaseDate: '2026-11-10',
+      price: 27000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['브라운'],
+      sizes: ['165', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243362-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243362-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243362-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · 165 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-023',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '제날드방수방한화',
+      itId: 'GN1243361',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['실버', '핑크', '블랙'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243361-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243361-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243361-1.webp'
+      ],
+      description: ['색상 · 실버 / 핑크 / 블랙', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-024',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '코알라어그',
+      itId: 'GN1243360',
+      releaseDate: '2026-11-10',
+      price: 24000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['브라운'],
+      sizes: ['160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243360-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243360-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243360-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-025',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '2선스포털운동화찍찍이',
+      itId: 'GN1243359',
+      releaseDate: '2026-11-10',
+      price: 23000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['베이지', '다크그레이'],
+      sizes: ['135', '140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243359-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243359-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243359-1.webp'
+      ],
+      description: ['색상 · 베이지 / 다크그레이', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-026',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '눈송이어그',
+      itId: 'GN1243358',
+      releaseDate: '2026-11-10',
+      price: 23000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['브라운'],
+      sizes: ['145', '150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243358-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243358-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243358-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · 145 / 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-027',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '2선네오털운동화찍찍이',
+      itId: 'GN1243357',
+      releaseDate: '2026-11-10',
+      price: 26000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['카멜', '블랙'],
+      sizes: ['170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243357-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243357-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243357-1.webp'
+      ],
+      description: ['색상 · 카멜 / 블랙', '사이즈 · 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-028',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '비오털투명어그',
+      itId: 'GN1243356',
+      releaseDate: '2026-11-10',
+      price: 26000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크'],
+      sizes: ['160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243356-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243356-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243356-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-029',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '소프트털하이',
+      itId: 'GN1243355',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '베이지'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243355-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243355-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243355-1.webp'
+      ],
+      description: ['색상 · 아이 / 베이지', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-030',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '벤자스털하이',
+      itId: 'GN1243354',
+      releaseDate: '2026-11-10',
+      price: 23000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['크림', '브라운'],
+      sizes: ['135', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243354-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243354-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243354-1.webp'
+      ],
+      description: ['색상 · 크림 / 브라운', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-031',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '팀버털워커',
+      itId: 'GN1243353',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카멜'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243353-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243353-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243353-1.webp'
+      ],
+      description: ['색상 · 카멜', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-032',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '베어스털부츠',
+      itId: 'GN1243352',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '진베이지'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243352-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243352-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243352-1.webp'
+      ],
+      description: ['색상 · 아이 / 진베이지', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-033',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '딘딘털어그',
+      itId: 'GN1243351',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['베이지', '브라운'],
+      sizes: ['145', '150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243351-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243351-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243351-1.webp'
+      ],
+      description: ['색상 · 베이지 / 브라운', '사이즈 · 145 / 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-034',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '런던털어그',
+      itId: 'GN1243350',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['베이지', '카멜', '블랙'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243350-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243350-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243350-1.webp'
+      ],
+      description: ['색상 · 베이지 / 카멜 / 블랙', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-035',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '뽀글이털록스',
+      itId: 'GN1243349',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['베이지', '브라운'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243349-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243349-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243349-1.webp'
+      ],
+      description: ['색상 · 베이지 / 브라운', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-036',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '마리원털플랫',
+      itId: 'GN1243348',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['베이지', '브라운'],
+      sizes: ['135', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243348-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243348-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243348-1.webp'
+      ],
+      description: ['색상 · 베이지 / 브라운', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-037',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '터치털반하이',
+      itId: 'GN1243347',
+      releaseDate: '2026-11-10',
+      price: 23000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['브라운'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243347-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243347-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243347-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-038',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '로라큐빅털어그',
+      itId: 'GN1243346',
+      releaseDate: '2026-11-10',
+      price: 24000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243346-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243346-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243346-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-039',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '오딩단추어그',
+      itId: 'GN1243345',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카멜', '블랙'],
+      sizes: ['130', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243345-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243345-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243345-1.webp'
+      ],
+      description: ['색상 · 카멜 / 블랙', '사이즈 · 130 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-040',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '지지어그',
+      itId: 'GN1243344',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['브라운'],
+      sizes: ['170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243344-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243344-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243344-1.webp'
+      ],
+      description: ['색상 · 브라운', '사이즈 · 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-041',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '피트털워커',
+      itId: 'GN1243343',
+      releaseDate: '2026-11-10',
+      price: 24000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['블랙'],
+      sizes: ['160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243343-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243343-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243343-1.webp'
+      ],
+      description: ['색상 · 블랙', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-042',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '하리베베털어그',
+      itId: 'GN1243342',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카멜', '브라운'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243342-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243342-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243342-1.webp'
+      ],
+      description: ['색상 · 카멜 / 브라운', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-043',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '요루하이털어그',
+      itId: 'GN1243341',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카멜', '핑크'],
+      sizes: ['135', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243341-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243341-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243341-1.webp'
+      ],
+      description: ['색상 · 카멜 / 핑크', '사이즈 · 135 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-044',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '꼬락베베어그',
+      itId: 'GN1243340',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['베이지', '브라운'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243340-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243340-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243340-1.webp'
+      ],
+      description: ['색상 · 베이지 / 브라운', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-045',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '뽀송이털플랫',
+      itId: 'GN1243339',
+      releaseDate: '2026-11-10',
+      price: 19000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['연베이지', '진베이지', '브라운'],
+      sizes: ['135', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243339-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243339-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243339-1.webp'
+      ],
+      description: ['색상 · 연베이지 / 진베이지 / 브라운', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-046',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '더블리본털플랫',
+      itId: 'GN1243338',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '브라운'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243338-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243338-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243338-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-047',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '에스키털원반도',
+      itId: 'GN1243337',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '브라운'],
+      sizes: ['135', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243337-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243337-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243337-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-048',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '데이스털로퍼',
+      itId: 'GN1243336',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['카멜', '카키'],
+      sizes: ['135', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243336-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243336-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243336-1.webp'
+      ],
+      description: ['색상 · 카멜 / 카키', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-049',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '송이털어그',
+      itId: 'GN1243335',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카키', '카멜'],
+      sizes: ['145', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243335-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243335-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243335-1.webp'
+      ],
+      description: ['색상 · 카키 / 카멜', '사이즈 · 145 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-050',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '지푸어그',
+      itId: 'GN1243334',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['베이지', '카멜'],
+      sizes: ['145', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243334-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243334-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243334-1.webp'
+      ],
+      description: ['색상 · 베이지 / 카멜', '사이즈 · 145 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-051',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '누빔첼시털하이',
+      itId: 'GN1243333',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '진베이지'],
+      sizes: ['130', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243333-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243333-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243333-1.webp'
+      ],
+      description: ['색상 · 아이 / 진베이지', '사이즈 · 130 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-052',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '양털하이슈즈',
+      itId: 'GN1243332',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '브라운'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243332-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243332-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243332-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-053',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '퀄팅쇼리털슈즈',
+      itId: 'GN1243331',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '블랙'],
+      sizes: ['135', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243331-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243331-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243331-1.webp'
+      ],
+      description: ['색상 · 아이 / 블랙', '사이즈 · 135 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-054',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '호피리본털가죽워커',
+      itId: 'GN1243330',
+      releaseDate: '2026-11-10',
+      price: 18000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['블랙', '그레이', '브라운'],
+      sizes: ['140', '145', '150'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243330-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243330-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243330-1.webp'
+      ],
+      description: ['색상 · 블랙 / 그레이 / 브라운', '사이즈 · 140 / 145 / 150']
+    },
+    {
+      id: 'eji-055',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '보아태슬퍼반하이',
+      itId: 'GN1243329',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['연베이지', '카멜'],
+      sizes: ['135', '140', '150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243329-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243329-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243329-1.webp'
+      ],
+      description: ['색상 · 연베이지 / 카멜', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-056',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '모그털운동화',
+      itId: 'GN1243328',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['그레이', '옐로우'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243328-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243328-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243328-1.webp'
+      ],
+      description: ['색상 · 그레이 / 옐로우', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-057',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '에런베베털운동화',
+      itId: 'GN1243327',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['카멜', '브라운'],
+      sizes: ['140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243327-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243327-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243327-1.webp'
+      ],
+      description: ['색상 · 카멜 / 브라운', '사이즈 · 140 / 150 / 160']
+    },
+    {
+      id: 'eji-058',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '로틴털운동화',
+      itId: 'GN1243326',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['카멜', '블랙'],
+      sizes: ['135', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243326-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243326-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243326-1.webp'
+      ],
+      description: ['색상 · 카멜 / 블랙', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-059',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '카라멜털플랫',
+      itId: 'GN1243325',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['베이지', '카멜'],
+      sizes: ['135', '140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243325-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243325-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243325-1.webp'
+      ],
+      description: ['색상 · 베이지 / 카멜', '사이즈 · 135 / 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-060',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '포레털버켄',
+      itId: 'GN1243324',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['베이지', '브라운'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243324-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243324-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243324-1.webp'
+      ],
+      description: ['색상 · 베이지 / 브라운', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-061',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '듀스털슈즈',
+      itId: 'GN1243323',
+      releaseDate: '2026-11-10',
+      price: 18000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['카멜', '핑크', '브라운'],
+      sizes: ['130', '140', '150', '160', '170'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243323-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243323-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243323-1.webp'
+      ],
+      description: ['색상 · 카멜 / 핑크 / 브라운', '사이즈 · 130 / 140 / 150 / 160 / 170']
+    },
+    {
+      id: 'eji-062',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '머플레이털워커',
+      itId: 'GN1243322',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '블랙'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243322-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243322-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243322-1.webp'
+      ],
+      description: ['색상 · 아이 / 블랙', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-063',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '마오퀄팅털슈즈',
+      itId: 'GN1243321',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '브라운'],
+      sizes: ['120', '130', '140', '150'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243321-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243321-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243321-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운', '사이즈 · 120 / 130 / 140 / 150']
+    },
+    {
+      id: 'eji-064',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '뭉크털워커',
+      itId: 'GN1243320',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '블랙'],
+      sizes: ['120', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243320-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243320-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243320-1.webp'
+      ],
+      description: ['색상 · 아이 / 블랙', '사이즈 · 120 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-065',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '토끼털베베어그',
+      itId: 'GN1243319',
+      releaseDate: '2026-11-10',
+      price: 22000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '블랙'],
+      sizes: ['125', '130', '140', '150', '160'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243319-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243319-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243319-1.webp'
+      ],
+      description: ['색상 · 아이 / 블랙', '사이즈 · 125 / 130 / 140 / 150 / 160']
+    },
+    {
+      id: 'eji-066',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '어그털슬리퍼',
+      itId: 'GN1243318',
+      releaseDate: '2026-11-10',
+      price: 19000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['베이지', '카멜'],
+      sizes: ['160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243318-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243318-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243318-1.webp'
+      ],
+      description: ['색상 · 베이지 / 카멜', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-067',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '스마트털워커',
+      itId: 'GN1243317',
+      releaseDate: '2026-11-10',
+      price: 23000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['블랙'],
+      sizes: ['130', '140', '150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243317-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243317-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243317-1.webp'
+      ],
+      description: ['색상 · 블랙', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-068',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '사각보석털플랫',
+      itId: 'GN1243316',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '브라운', '레드'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243316-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243316-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243316-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운 / 레드', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-069',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '단추털플랫',
+      itId: 'GN1243315',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '브라운'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243315-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243315-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243315-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-070',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '로제털플랫',
+      itId: 'GN1243314',
+      releaseDate: '2026-11-10',
+      price: 20000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '베이지', '블랙'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243314-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243314-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243314-1.webp'
+      ],
+      description: ['색상 · 아이 / 베이지 / 블랙', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-071',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '제니퍼슬리퍼맘',
+      itId: 'GN1243313',
+      releaseDate: '2026-11-10',
+      price: 21000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '그레이'],
+      sizes: ['230', '235', '240', '245', '250'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243313-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243313-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243313-1.webp'
+      ],
+      description: ['색상 · 아이 / 그레이', '사이즈 · 230 / 235 / 240 / 245 / 250']
+    },
+    {
+      id: 'eji-072',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '마마털슬리퍼맘',
+      itId: 'GN1243312',
+      releaseDate: '2026-11-10',
+      price: 19000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '브라운', '블랙'],
+      sizes: ['230', '235', '240', '245', '250'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243312-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243312-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243312-1.webp'
+      ],
+      description: ['색상 · 아이 / 브라운 / 블랙', '사이즈 · 230 / 235 / 240 / 245 / 250']
+    },
+    {
+      id: 'eji-073',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '인디하프털슬리퍼맘',
+      itId: 'GN1243311',
+      releaseDate: '2026-11-10',
+      price: 19000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['카멜'],
+      sizes: ['235', '240', '245'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243311-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243311-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243311-1.webp'
+      ],
+      description: ['색상 · 카멜', '사이즈 · 235 / 240 / 245']
+    },
+    {
+      id: 'eji-074',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '버터털슬리퍼맘',
+      itId: 'GN1243310',
+      releaseDate: '2026-11-10',
+      price: 17000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['카멜'],
+      sizes: ['S(230~235)', 'M(240~245)', 'L(250~255)'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243310-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243310-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243310-1.webp'
+      ],
+      description: ['색상 · 카멜', '사이즈 · S(230~235) / M(240~245) / L(250~255)']
+    },
+    {
+      id: 'eji-075',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠오로라털LED',
+      itId: 'GN1243309',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243309-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243309-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243309-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-076',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠투명스타스노우LED',
+      itId: 'GN1243308',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['핑크', '퍼플'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243308-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243308-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243308-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-077',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '유앤아이털원반도LED',
+      itId: 'GN1243307',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['화이트', '핑크'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243307-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243307-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243307-1.webp'
+      ],
+      description: ['색상 · 화이트 / 핑크', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-078',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '해피걸나비컬러하트털LED',
+      itId: 'GN1243306',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243306-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243306-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243306-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-079',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '리틀쥬프린세스털LED',
+      itId: 'GN1243305',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '블루'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243305-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243305-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243305-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-080',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '유앤아이하트리본보석털LED',
+      itId: 'GN1243304',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243304-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243304-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243304-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-081',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '유앤아이무지개원반도털LED',
+      itId: 'GN1243303',
+      releaseDate: '2026-11-10',
+      price: 30000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243303-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243303-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243303-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-082',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠진주리본털슬립온LED',
+      itId: 'GN1243302',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '블루'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243302-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243302-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243302-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-083',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠빅벨트천사털LED',
+      itId: 'GN1243301',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['화이트', '핑크'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243301-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243301-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243301-1.webp'
+      ],
+      description: ['색상 · 화이트 / 핑크', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-084',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '리틀쥬슈슈하트털LED',
+      itId: 'GN1243300',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243300-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243300-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243300-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-085',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '리틀쥬겨울공주털LED',
+      itId: 'GN1243299',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '블루'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243299-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243299-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243299-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-086',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '해피걸나비꽃털LED',
+      itId: 'GN1243298',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '블루'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243298-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243298-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243298-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블루', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-087',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '해피걸나비하트털LED',
+      itId: 'GN1243297',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243297-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243297-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243297-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-088',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '해피걸요정왕관털LED',
+      itId: 'GN1243296',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243296-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243296-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243296-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-089',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '하츄핑털LED운동화',
+      itId: 'GN1243295',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['원칼라'],
+      sizes: ['160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243295-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243295-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243295-1.webp'
+      ],
+      description: ['색상 · 원칼라', '사이즈 · 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-090',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '제이루키하트원반도털LED',
+      itId: 'GN1243293',
+      releaseDate: '2026-11-10',
+      price: 30000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243293-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243293-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243293-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-091',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '스와르공룡원반도LED',
+      itId: 'GN1243292',
+      releaseDate: '2026-11-10',
+      price: 26000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['아이', '베이비'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243292-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243292-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243292-1.webp'
+      ],
+      description: ['색상 · 아이 / 베이비', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-092',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '스와플라워털LED',
+      itId: 'GN1243291',
+      releaseDate: '2026-11-10',
+      price: 26000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '핑크'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243291-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243291-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243291-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-093',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '스와르3목원반도털',
+      itId: 'GN1243290',
+      releaseDate: '2026-11-10',
+      price: 24000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['핑크', '퍼플'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243290-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243290-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243290-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-094',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠샤인털LED',
+      itId: 'GN1243289',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243289-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243289-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243289-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-095',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠세일러문털LED',
+      itId: 'GN1243288',
+      releaseDate: '2026-11-10',
+      price: 30000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['140', '150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243288-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243288-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243288-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-096',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠찰랑이하트털LED',
+      itId: 'GN1243287',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243287-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243287-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243287-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-097',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '스와르돌가루별털LED',
+      itId: 'GN1243286',
+      releaseDate: '2026-11-10',
+      price: 26000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'sneaker',
+      colors: ['아이', '핑크'],
+      sizes: ['130', '140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243286-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243286-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243286-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 130 / 140 / 150 / 160 / 170 / 180']
+    },
+    {
+      id: 'eji-098',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠눈송이털LED',
+      itId: 'GN1243285',
+      releaseDate: '2026-11-10',
+      price: 29000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243285-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243285-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243285-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-099',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠다이노LED스노우',
+      itId: 'GN1243284',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['베이지', '네이비'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243284-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243284-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243284-1.webp'
+      ],
+      description: ['색상 · 베이지 / 네이비', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-100',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '메리엠슈가LED스노우',
+      itId: 'GN1243283',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243283-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243283-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243283-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-101',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA플레이부츠',
+      itId: 'GN1243282',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['핑크', '블랙'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243282-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243282-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243282-1.webp'
+      ],
+      description: ['색상 · 핑크 / 블랙', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-102',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA하트플부츠',
+      itId: 'GN1243281',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243281-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243281-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243281-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-103',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA타니하트',
+      itId: 'GN1243280',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '레드', '블랙'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243280-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243280-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243280-1.webp'
+      ],
+      description: ['색상 · 핑크 / 레드 / 블랙', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-104',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA코지하트',
+      itId: 'GN1243279',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243279-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243279-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243279-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-105',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA양털밴딩',
+      itId: 'GN1243278',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '베이지', '무지개'],
+      sizes: ['160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243278-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243278-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243278-1.webp'
+      ],
+      description: ['색상 · 아이 / 베이지 / 무지개', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-106',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA솜사탕',
+      itId: 'GN1243277',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '핑크', '베이지', '무지개'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243277-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243277-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243277-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크 / 베이지 / 무지개', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-107',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA차밍하트',
+      itId: 'GN1243276',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크', '퍼플'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243276-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243276-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243276-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크 / 퍼플', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-108',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA시어링부츠',
+      itId: 'GN1243275',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이보리', '블랙'],
+      sizes: ['160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243275-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243275-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243275-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 블랙', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-109',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA스위티부츠',
+      itId: 'GN1243274',
+      releaseDate: '2026-11-10',
+      price: 44000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['화이트', '핑크'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243274-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243274-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243274-1.webp'
+      ],
+      description: ['색상 · 화이트 / 핑크', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-110',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA스노우벨',
+      itId: 'GN1243273',
+      releaseDate: '2026-11-10',
+      price: 37000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['화이트', '핑크'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243273-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243273-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243273-1.webp'
+      ],
+      description: ['색상 · 화이트 / 핑크', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-111',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA퍼플랫',
+      itId: 'GN1243272',
+      releaseDate: '2026-11-10',
+      price: 31000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['화이트', '핑크', '베이지', '그레이'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243272-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243272-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243272-1.webp'
+      ],
+      description: ['색상 · 화이트 / 핑크 / 베이지 / 그레이', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-112',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA토이래빗',
+      itId: 'GN1243271',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '핑크'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243271-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243271-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243271-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-113',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA비쥬',
+      itId: 'GN1243270',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플', '골드'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243270-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243270-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243270-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플 / 골드', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-114',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA블리',
+      itId: 'GN1243269',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이보리', '블루'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243269-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243269-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243269-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 블루', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-115',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA윙',
+      itId: 'GN1243268',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243268-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243268-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243268-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-116',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA아이스크림',
+      itId: 'GN1243267',
+      releaseDate: '2026-11-10',
+      price: 39000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이보리', '그라데이션'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243267-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243267-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243267-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 그라데이션', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-117',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA버블리본부츠',
+      itId: 'GN1243266',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['원칼라'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243266-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243266-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243266-1.webp'
+      ],
+      description: ['색상 · 원칼라', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-118',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA미러볼',
+      itId: 'GN1243265',
+      releaseDate: '2026-11-10',
+      price: 34000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이보리', '그라데이션'],
+      sizes: ['150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243265-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243265-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243265-1.webp'
+      ],
+      description: ['색상 · 아이보리 / 그라데이션', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-119',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA버니',
+      itId: 'GN1243264',
+      releaseDate: '2026-11-10',
+      price: 34000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '핑크'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243264-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243264-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243264-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-120',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA미라클',
+      itId: 'GN1243263',
+      releaseDate: '2026-11-10',
+      price: 42000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '그라데이션'],
+      sizes: ['160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243263-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243263-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243263-1.webp'
+      ],
+      description: ['색상 · 핑크 / 그라데이션', '사이즈 · 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-121',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA모조',
+      itId: 'GN1243262',
+      releaseDate: '2026-11-10',
+      price: 32000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['탄색', '베이지', '브라운'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210', '220'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243262-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243262-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243262-1.webp'
+      ],
+      description: ['색상 · 탄색 / 베이지 / 브라운', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210 / 220']
+    },
+    {
+      id: 'eji-122',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA멜팅리본부츠',
+      itId: 'GN1243261',
+      releaseDate: '2026-11-10',
+      price: 43000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243261-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243261-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243261-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-123',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA허니키즈',
+      itId: 'GN1243260',
+      releaseDate: '2026-11-10',
+      price: 34000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243260-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243260-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243260-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-124',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA멀티플하트부츠',
+      itId: 'GN1243259',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크', '퍼플', '무지개'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243259-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243259-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243259-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크 / 퍼플 / 무지개', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-125',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA러브퍼프',
+      itId: 'GN1243258',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['화이트', '핑크'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243258-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243258-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243258-1.webp'
+      ],
+      description: ['색상 · 화이트 / 핑크', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-126',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA매지컬',
+      itId: 'GN1243257',
+      releaseDate: '2026-11-10',
+      price: 33000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243257-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243257-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243257-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-127',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA하트퍼',
+      itId: 'GN1243256',
+      releaseDate: '2026-11-10',
+      price: 30000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '레드', '블랙'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243256-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243256-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243256-1.webp'
+      ],
+      description: ['색상 · 핑크 / 레드 / 블랙', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-128',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA러브미부츠',
+      itId: 'GN1243255',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['핑크', '퍼플'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243255-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243255-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243255-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-129',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA러브드림',
+      itId: 'GN1243254',
+      releaseDate: '2026-11-10',
+      price: 41000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['아이', '핑크', '퍼플'],
+      sizes: ['160', '170', '180', '190', '200'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243254-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243254-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243254-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크 / 퍼플', '사이즈 · 160 / 170 / 180 / 190 / 200']
+    },
+    {
+      id: 'eji-130',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA래빗',
+      itId: 'GN1243253',
+      releaseDate: '2026-11-10',
+      price: 30000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['아이', '핑크', '베이지', '그레이'],
+      sizes: ['140', '150', '160', '170', '180', '190', '200', '210'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243253-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243253-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243253-1.webp'
+      ],
+      description: ['색상 · 아이 / 핑크 / 베이지 / 그레이', '사이즈 · 140 / 150 / 160 / 170 / 180 / 190 / 200 / 210']
+    },
+    {
+      id: 'eji-131',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: 'LA드림캐슬',
+      itId: 'GN1243252',
+      releaseDate: '2026-11-10',
+      price: 34000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'formal',
+      colors: ['핑크', '퍼플'],
+      sizes: ['150', '160', '170', '180', '190'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243252-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243252-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243252-1.webp'
+      ],
+      description: ['색상 · 핑크 / 퍼플', '사이즈 · 150 / 160 / 170 / 180 / 190']
+    },
+    {
+      id: 'eji-132',
+      brandId: 'eji',
+      brand: '이지아이',
+      name: '317토끼털LED',
+      itId: 'GN1243251',
+      releaseDate: '2026-11-10',
+      price: 28000,
+      categories: ['acc'],
+      itemType: 'shoes',
+      subcat: 'boot',
+      colors: ['카멜', '핑크', '그레이'],
+      sizes: ['140', '150', '160', '170', '180'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243251-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243251-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/eji/1243251-1.webp'
+      ],
+      description: ['색상 · 카멜 / 핑크 / 그레이', '사이즈 · 140 / 150 / 160 / 170 / 180']
+    },
+    {
       id: 'soye-058',
       brandId: 'soye',
       brand: '소예',
