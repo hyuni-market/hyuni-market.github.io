@@ -157893,7 +157893,8 @@ window.HYEONMARKET_DATA = {
       categories: ['unisex'],
       itemType: 'acc',
       subcat: 'hairpin',
-      colors: [],
+      colors: ['레드&노랑세트', '초록&핑크세트'],
+      colorHex: { '레드&노랑세트': '#c4553f', '초록&핑크세트': '#7f9a72' },
       sizes: ['free(3개1세트)'],
       thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/019-t.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/019-1.webp',
@@ -157902,7 +157903,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/019-2.webp',
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/019-3.webp'
       ],
-      description: ['사이즈 · free(3개1세트)']
+      description: ['색상 · 레드&노랑세트 / 초록&핑크세트', '사이즈 · free(3개1세트)']
     },
     {
       id: 'mamaspapa-020',
@@ -158169,7 +158170,8 @@ window.HYEONMARKET_DATA = {
       categories: ['unisex'],
       itemType: 'acc',
       subcat: 'hairpin',
-      colors: [],
+      colors: ['청록세트', '올리브세트', '라벤더세트', '핑크세트'],
+      colorHex: { '청록세트': '#4f7c74', '올리브세트': '#7d8455', '라벤더세트': '#b7a7cf', '핑크세트': '#e9a7b8' },
       sizes: ['free(4개1세트)'],
       thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/029-t.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/029-1.webp',
@@ -158178,7 +158180,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/029-2.webp',
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/029-3.webp'
       ],
-      description: ['사이즈 · free(4개1세트)']
+      description: ['색상 · 청록세트 / 올리브세트 / 라벤더세트 / 핑크세트', '사이즈 · free(4개1세트)']
     },
     {
       id: 'mamaspapa-030',
@@ -158712,7 +158714,8 @@ window.HYEONMARKET_DATA = {
       categories: ['unisex'],
       itemType: 'acc',
       subcat: 'hairpin',
-      colors: [],
+      colors: ['핑크세트', '오렌지세트'],
+      colorHex: { '핑크세트': '#e9a7b8', '오렌지세트': '#e08b45' },
       sizes: ['free'],
       thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/050-t.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/050-1.webp',
@@ -158721,7 +158724,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/050-2.webp',
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/050-3.webp'
       ],
-      description: ['사이즈 · free']
+      description: ['색상 · 핑크세트 / 오렌지세트', '사이즈 · free']
     },
     {
       id: 'mamaspapa-051',
@@ -159887,7 +159890,8 @@ window.HYEONMARKET_DATA = {
       categories: ['unisex'],
       itemType: 'acc',
       subcat: 'hairpin',
-      colors: [],
+      colors: ['파스텔세트', '블랙세트'],
+      colorHex: { '파스텔세트': '#d8c7e0', '블랙세트': '#2f2b28' },
       sizes: ['free'],
       thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/097-t.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/097-1.webp',
@@ -159895,7 +159899,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/097-1.webp',
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/097-2.webp'
       ],
-      description: ['사이즈 · free']
+      description: ['색상 · 파스텔세트 / 블랙세트', '사이즈 · free']
     },
     {
       id: 'mamaspapa-098',
@@ -160563,7 +160567,8 @@ window.HYEONMARKET_DATA = {
       categories: ['unisex'],
       itemType: 'acc',
       subcat: 'hairpin',
-      colors: [],
+      colors: ['아이푸들세트', '버건디수들세트'],
+      colorHex: { '아이푸들세트': '#f0e9db', '버건디수들세트': '#7d2b3c' },
       sizes: ['free'],
       thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/127-t.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/127-1.webp',
@@ -160571,7 +160576,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/127-1.webp',
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/mamaspapa/127-2.webp'
       ],
-      description: ['사이즈 · free']
+      description: ['색상 · 아이푸들세트 / 버건디수들세트', '사이즈 · free']
     },
     {
       id: 'mamaspapa-128',
@@ -161148,7 +161153,8 @@ window.HYEONMARKET_DATA = {
       price: 22000,
       categories: ['unisex'],
       itemType: 'set',
-      colors: [],
+      colors: ['바지세트', '치마세트'],
+      colorHex: { '바지세트': '#8fa3b8', '치마세트': '#c98b9a' },
       sizes: ['5', '7', '9', '11', '13'],
       thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/hanabi/006-t.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/hanabi/006-1.webp',
@@ -161164,7 +161170,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/hanabi/006-9.webp',
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-4/main/catalog/hanabi/006-10.webp'
       ],
-      description: ['사이즈 · 5 / 7 / 9 / 11 / 13']
+      description: ['색상 · 바지세트 / 치마세트', '사이즈 · 5 / 7 / 9 / 11 / 13']
     },
     {
       id: 'hanabi-007',
