@@ -775,6 +775,7 @@
       notice(already ? '이 기기는 이미 방문자 통계에서 빠져 있어요' : '이 기기는 방문자 통계에서 제외됐어요');
     } else {
       localStorage.removeItem(KEY);
+      localStorage.removeItem('skipgc'); // 예전 #toggle-goatcounter 방식으로 꺼 둔 것도 함께 해제
       stripParam();
       notice('이 기기는 다시 방문자 통계에 포함돼요');
     }
