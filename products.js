@@ -140619,7 +140619,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['원칼라'],
       sizes: ['XS', 'S', 'M', 'L', 'XL'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-8/main/catalog/hey_1122/004-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-8/main/catalog/hey_1122/004-w.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-8/main/catalog/hey_1122/004-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-8/main/catalog/hey_1122/004-1.webp',
