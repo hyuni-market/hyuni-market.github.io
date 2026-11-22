@@ -783,7 +783,7 @@
 })();
 </script>
 
-<script src="products.js?v=202611230011"></script>
+<script src="products.js?v=202611230035"></script>
 <script>
 (function () {
   'use strict';
@@ -1249,7 +1249,8 @@
         if (!nameHit) items = all.filter(function (p) { return matchesQuery(p, q); });
       }
       if (!items.length) return;
-      cards.push({ brand: b, items: items, total: all.length, newest: brandNewestDate(b.id) });
+      var nb = brandNewest(b.id);
+      cards.push({ brand: b, items: items, total: all.length, newest: nb.date, newestItNum: nb.itNum, newestItSrc: nb.itSrc });
     });
 
     if (sortMode === 'count') {
@@ -1258,6 +1259,10 @@
       cards.sort(function (a, b) {
         var da = a.newest || '', db = b.newest || '';
         if (da !== db) return db.localeCompare(da);
+        /* 같은 날이면 그날 올라온 도매처 등록번호가 큰 브랜드가 먼저 (도매처가 다르면 번호 체계가 달라 비교하지 않고 이름순) */
+        if (a.newestItSrc && a.newestItSrc === b.newestItSrc && a.newestItNum !== b.newestItNum) {
+          return b.newestItNum - a.newestItNum;
+        }
         return a.brand.name.localeCompare(b.brand.name, 'ko');
       });
     } else {
@@ -1297,15 +1302,33 @@
   function itNum(p) {
     return Number(String((p && p.itId) || '').replace(/[^0-9]/g, '') || 0) || 0;
   }
-  function brandNewestDate(brandId) {
+  /* 도매처 등록번호: 키즈빌리지 '17C1795318045' · 기린 'GN1246234' → 뒤쪽 숫자만 쓴다.
+     앞의 17C 같은 일련번호 숫자는 브랜드마다 자릿수가 달라 붙이면 순서가 뒤집힌다. */
+  function itRegNo(p) {
+    var m = /([0-9]+)$/.exec(String((p && p.itId) || ''));
+    return m ? Number(m[1]) : 0;
+  }
+  function itSource(p) {
+    return String((p && p.itId) || '').indexOf('GN') === 0 ? 'girin' : 'kv';
+  }
+  /* 브랜드의 가장 최근 출시일 + 그 날 올라온 상품 중 가장 큰 도매처 등록번호 */
+  function brandNewest(brandId) {
     var d = '';
-    for (var i = 0; i < DATA.products.length; i++) {
-      var p = DATA.products[i];
+    var i, p, rd;
+    for (i = 0; i < DATA.products.length; i++) {
+      p = DATA.products[i];
       if (p.brandId !== brandId) continue;
-      var rd = p.releaseDate || '';
+      rd = p.releaseDate || '';
       if (rd > d) d = rd;
     }
-    return d;
+    var n = 0, src = '';
+    for (i = 0; i < DATA.products.length; i++) {
+      p = DATA.products[i];
+      if (p.brandId !== brandId || (p.releaseDate || '') !== d) continue;
+      var rn = itRegNo(p);
+      if (rn > n) { n = rn; src = itSource(p); }
+    }
+    return { date: d, itNum: n, itSrc: src };
   }
 
   function renderProductGrid() {
