@@ -745,6 +745,43 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+<!-- 사장님 기기 전용: ?hyuni_admin=1 로 한 번 접속하면 이 브라우저는 방문자 통계에서 빠지고, ?hyuni_admin=0 이면 다시 포함돼요. 일반 방문자 화면에는 아무 표시도 남지 않아요. -->
+<script>
+(function () {
+  var KEY = 'hyeonmarket.notrack';
+  var m = /[?&]hyuni_admin=([01])(?=&|$)/.exec(location.search);
+  if (!m) return;
+  var el = document.getElementById('toast');
+  function notice(msg) {
+    if (!el) return;
+    el.classList.remove('top');
+    el.textContent = msg;
+    el.classList.add('show');
+    setTimeout(function () { el.classList.remove('show'); }, 2600);
+  }
+  function stripParam() {
+    try {
+      var keep = location.search.replace(/^\?/, '').split('&').filter(function (kv) {
+        return kv && kv.indexOf('hyuni_admin=') !== 0;
+      });
+      history.replaceState(history.state, '', location.pathname + (keep.length ? '?' + keep.join('&') : '') + location.hash);
+    } catch (e) {}
+  }
+  try {
+    if (m[1] === '1') {
+      var already = localStorage.getItem(KEY) === '1';
+      localStorage.setItem(KEY, '1');
+      stripParam();
+      notice(already ? '이 기기는 이미 방문자 통계에서 빠져 있어요' : '이 기기는 방문자 통계에서 제외됐어요');
+    } else {
+      localStorage.removeItem(KEY);
+      stripParam();
+      notice('이 기기는 다시 방문자 통계에 포함돼요');
+    }
+  } catch (e) { stripParam(); }
+})();
+</script>
+
 <script src="products.js?v=202611230011"></script>
 <script>
 (function () {
@@ -1387,7 +1424,12 @@
   /* ── 방문자 통계 (GoatCounter) ─────────────────────────
      통계는 사장님만 로그인해서 보고, 방문자에게는 아무것도 보이지 않아요.
      광고차단 프로그램이 통계 스크립트를 막아도 오류가 나지 않게 조용히 넘어갑니다. */
+  /* 사장님 기기로 설정된 브라우저인지 (통계 제외) */
+  function trackingOff() {
+    try { return localStorage.getItem('hyeonmarket.notrack') === '1'; } catch (e) { return false; }
+  }
   function trackEvent(path, title) {
+    if (trackingOff()) return;
     try {
       if (window.goatcounter && typeof window.goatcounter.count === 'function') {
         window.goatcounter.count({ path: path, title: title || path, event: true });
@@ -2157,7 +2199,19 @@
   };
 })();
 </script>
-<!-- 방문자 통계 (GoatCounter) · 방문자에게는 보이지 않고, 숫자는 사장님만 로그인해서 봐요 -->
-<script data-goatcounter="https://hyuni-market.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<!-- 방문자 통계 (GoatCounter) · 방문자에게는 보이지 않고, 숫자는 사장님만 로그인해서 봐요.
+     사장님 기기로 설정된 브라우저에서는 이 스크립트를 아예 불러오지 않아 방문 기록이 한 건도 남지 않아요. -->
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('hyeonmarket.notrack') === '1') return;
+  } catch (e) {}
+  var s = document.createElement('script');
+  s.async = true;
+  s.setAttribute('data-goatcounter', 'https://hyuni-market.goatcounter.com/count');
+  s.src = 'https://gc.zgo.at/count.js';
+  (document.body || document.head || document.documentElement).appendChild(s);
+})();
+</script>
 </body>
 </html>
