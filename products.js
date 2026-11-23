@@ -140999,7 +140999,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'sock',
       colors: ['크림', '차콜'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1245874-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1245874-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1245874-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1245874-1.webp'
@@ -141018,7 +141018,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['메란지', '퍼플', '카멜베이지'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244314-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244314-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244314-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244314-1.webp'
@@ -141037,7 +141037,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'outer',
       colors: ['브라운'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244269-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244269-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244269-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244269-1.webp'
@@ -141056,7 +141056,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['블루', '차콜'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244312-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244312-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244312-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244312-1.webp'
@@ -141075,7 +141075,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['오트그레이', '핑크', '블루', '메란'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244313-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244313-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244313-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244313-1.webp'
@@ -141094,7 +141094,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'set',
       colors: ['브라운', '그레이'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244311-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244311-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244311-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244311-1.webp'
@@ -141113,7 +141113,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['핑크', '블루'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244310-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244310-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244310-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244310-1.webp'
@@ -141132,7 +141132,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크림', '메란지', '블랙'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244309-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244309-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244309-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244309-1.webp'
@@ -141151,7 +141151,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['보카베이지', '연밤', '차콜'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244308-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244308-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244308-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244308-1.webp'
@@ -141170,7 +141170,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['네이비', '브라운'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244307-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244307-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244307-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244307-1.webp'
@@ -141190,7 +141190,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairpin',
       colors: ['버터-핑크세트'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244306-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244306-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244306-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244306-1.webp'
@@ -141211,7 +141211,7 @@ window.HYEONMARKET_DATA = {
       colors: ['올리브그린', '브라운', '버터', '핑크'],
       sizes: ['프리'],
       colorAdd: { '버터': 1000, '핑크': 1000 },
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244305-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244305-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244305-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244305-1.webp'
@@ -141231,7 +141231,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'scarf',
       colors: ['네이비'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244304-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244304-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244304-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244304-1.webp'
@@ -141251,7 +141251,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairband',
       colors: ['네이비'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244303-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244303-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244303-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244303-1.webp'
@@ -141270,7 +141270,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['브라운', '네이비'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244302-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244302-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244302-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244302-1.webp'
@@ -141289,7 +141289,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['핑크', '블루'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244301-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244301-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244301-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244301-1.webp'
@@ -141308,7 +141308,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['크림', '핑크', '브라운', '먹색'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244300-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244300-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244300-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244300-1.webp'
@@ -141328,7 +141328,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'scarf',
       colors: ['카멜베이지', '그린', '퍼플핑크', '크림', '메란지', '레드', '네이비'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244299-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244299-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244299-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244299-1.webp'
@@ -141348,7 +141348,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairpin',
       colors: ['레드-블루세트'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244298-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244298-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244298-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244298-1.webp'
@@ -141367,7 +141367,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크림', '블루', '핑크', '민트', '네이비'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244297-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244297-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244297-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244297-1.webp'
@@ -141386,7 +141386,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['엘그레이', '푸시아핑크', '블루'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244296-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244296-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244296-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244296-1.webp'
@@ -141405,7 +141405,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'outer',
       colors: ['베이지', '브라운'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244295-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244295-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244295-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244295-1.webp'
@@ -141424,7 +141424,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'set',
       colors: ['와인', '네이비'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244294-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244294-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244294-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244294-1.webp'
@@ -141443,7 +141443,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['핑크', '그레이', '네이비'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244293-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244293-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244293-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244293-1.webp'
@@ -141462,7 +141462,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['버건디', '그레이'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244292-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244292-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244292-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244292-1.webp'
@@ -141481,7 +141481,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'dress',
       colors: ['아이꽃'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244291-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244291-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244291-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244291-1.webp'
@@ -141501,7 +141501,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'scarf',
       colors: ['그레이', '브라운', '네이비'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244290-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244290-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244290-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244290-1.webp'
@@ -141520,7 +141520,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['크림', '소라', '버건디브라운'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244289-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244289-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244289-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244289-1.webp'
@@ -141539,7 +141539,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['블루', '살구', '오트밀'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244288-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244288-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244288-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244288-1.webp'
@@ -141558,7 +141558,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크레', '크먹', '파밤'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244287-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244287-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244287-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244287-1.webp'
@@ -141577,7 +141577,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['핑크', '틸블루', '딥브라운', '딥네이비'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244286-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244286-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244286-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244286-1.webp'
@@ -141596,7 +141596,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크림', '핑크', '민트'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244285-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244285-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244285-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244285-1.webp'
@@ -141615,7 +141615,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['그레이지', '오션블루', '마차라떼'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244284-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244284-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244284-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244284-1.webp'
@@ -141634,7 +141634,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['옐로우', '그린', '퍼플'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244283-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244283-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244283-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244283-1.webp'
@@ -141653,7 +141653,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'set',
       colors: ['메란지', '블랙'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244282-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244282-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244282-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244282-1.webp'
@@ -141672,7 +141672,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['중청', '진청'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244281-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244281-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244281-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244281-1.webp'
@@ -141691,7 +141691,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['블랙'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244279-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244279-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244279-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244279-1.webp'
@@ -141710,7 +141710,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['버터', '핑크', '카멜', '메란지', '네이비', '블랙'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244278-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244278-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244278-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244278-1.webp'
@@ -141729,7 +141729,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['브라운', '블랙'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244277-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244277-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244277-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244277-1.webp'
@@ -141748,7 +141748,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['오트멜론', '베이지', '차콜'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244276-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244276-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244276-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244276-1.webp'
@@ -141767,7 +141767,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['오트멜론', '메란', '브라운', '차콜'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244275-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244275-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244275-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244275-1.webp'
@@ -141787,7 +141787,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'scarf',
       colors: ['오트멜론', '브라운', '네이비'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244274-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244274-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244274-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244274-1.webp'
@@ -141806,7 +141806,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['베겨', '차콘', '베검'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244273-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244273-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244273-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244273-1.webp'
@@ -141825,7 +141825,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['화색줄', '레드줄', '아검줄', '블루바탕', '차콜바탕'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244272-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244272-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244272-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244272-1.webp'
@@ -141845,7 +141845,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairpin',
       colors: ['딥카키'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244271-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244271-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244271-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244271-1.webp'
@@ -141864,7 +141864,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크림', '실버그레이', '네이비', '핑크', '모차'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244270-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244270-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244270-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244270-1.webp'
@@ -141883,7 +141883,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크림', '블루', '네이비'],
       sizes: ['S', 'M', 'L', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244268-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244268-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244268-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244268-1.webp'
@@ -141902,7 +141902,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['카키', '브릭'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244267-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244267-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244267-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244267-1.webp'
@@ -141921,7 +141921,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['레드', '메란지'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244266-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244266-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244266-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244266-1.webp'
@@ -141940,7 +141940,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'outer',
       colors: ['차콜'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244265-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244265-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244265-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244265-1.webp'
@@ -141959,7 +141959,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'top',
       colors: ['크림베이지', '핑크', '브라운', '네이비'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244264-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244264-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244264-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244264-1.webp'
@@ -141979,7 +141979,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairband',
       colors: ['연베이지', '핑크', '빈로즈', '틸블루', '네이비', '블랙'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244263-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244263-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244263-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244263-1.webp'
@@ -141999,7 +141999,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairband',
       colors: ['연베이지', '빈로즈', '틸블루', '블랙'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244262-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244262-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244262-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244262-1.webp'
@@ -142019,7 +142019,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairpin',
       colors: ['연베이지', '빈로즈', '블랙'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244261-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244261-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244261-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244261-1.webp'
@@ -142039,7 +142039,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'hairpin',
       colors: ['연베이지', '블랙'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244260-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244260-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244260-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244260-1.webp'
@@ -142058,7 +142058,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'bottom',
       colors: ['크림', '핑크', '검정', '블루', '레드'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244259-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244259-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244259-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244259-1.webp'
@@ -142078,7 +142078,7 @@ window.HYEONMARKET_DATA = {
       subcat: 'sock',
       colors: ['버터', '브릭브라운'],
       sizes: ['프리'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244258-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244258-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244258-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244258-1.webp'
@@ -144737,7 +144737,7 @@ window.HYEONMARKET_DATA = {
       itemType: 'dress',
       colors: ['크림', '네이비', '메란지'],
       sizes: ['XS', 'S', 'M', 'L', 'XL', 'JS'],
-      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244280-t.webp',
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244280-t2.webp',
       image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244280-1.webp',
       detailImages: [
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-5/main/catalog/soye/1244280-1.webp'
