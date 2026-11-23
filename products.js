@@ -173761,5 +173761,64 @@ window.HYEONMARKET_DATA = {
       ],
       description: ['색상 · 블랙 / 버건디', '사이즈 · XS / S / M / L / XL / 2XL']
     },
+
+    {
+      id: 'seventeen-024',
+      brandId: 'seventeen',
+      brand: '세븐틴',
+      name: '버클리맨투맨',
+      itId: '3C1795406957',
+      releaseDate: '2026-11-23',
+      price: 28000,
+      categories: ['unisex'],
+      itemType: 'top',
+      colors: ['검정', '백염'],
+      colorHex: { '검정': '#2f2b28', '백염': '#f4efe6' },
+      sizes: ['11', '13', '15', '17'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-3.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-4.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-5.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-6.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-7.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-8.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-9.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/024-10.webp'
+      ],
+      description: ['색상 · 검정 / 백염', '사이즈 · 11 / 13 / 15 / 17']
+    },
+    {
+      id: 'seventeen-025',
+      brandId: 'seventeen',
+      brand: '세븐틴',
+      name: '더블헨리넥티셔츠',
+      itId: '2C1795406956',
+      releaseDate: '2026-11-23',
+      price: 28000,
+      categories: ['unisex'],
+      itemType: 'top',
+      colors: ['검정', '멜란지'],
+      colorHex: { '검정': '#2f2b28', '멜란지': '#9a9a9a' },
+      sizes: ['11', '13', '15', '17'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-3.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-4.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-5.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-6.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-7.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-8.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-9.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/seventeen/025-10.webp'
+      ],
+      description: ['색상 · 검정 / 멜란지', '사이즈 · 11 / 13 / 15 / 17']
+    },
   ]
 };
