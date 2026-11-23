@@ -141,6 +141,7 @@ window.HYEONMARKET_DATA = {
       name: '도레미',
       nameEn: 'DOREMI',
       categories: ['acc'],
+      sizeImage: 'assets/catalog/sizes/doremi.jpg',
     },
     {
       id: 'vanillabunny',
