@@ -783,7 +783,7 @@
 })();
 </script>
 
-<script src="products.js?v=202611241418"></script>
+<script src="products.js?v=202611241720"></script>
 <script>
 (function () {
   'use strict';
@@ -1600,7 +1600,7 @@
           '<span class="d-brand">' + esc(brand.name) + '</span>' +
           '<h3 class="d-name">' + esc(p.name) + '</h3>' +
           '<div class="d-price" id="detailPrice">' + won(p.price) + '</div>' +
-          '<ul class="d-desc">' + p.description.map(function (d) { return '<li>' + esc(d) + '</li>'; }).join('') + '</ul>' +
+          (p.description && p.description.length ? '<ul class="d-desc">' + p.description.map(function (d) { return '<li>' + esc(d) + '</li>'; }).join('') + '</ul>' : '') +
 
           colorBlock +
           sizeBlock +
