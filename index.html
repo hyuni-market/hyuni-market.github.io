@@ -783,7 +783,7 @@
 })();
 </script>
 
-<script src="products.js?v=202611251458"></script>
+<script src="products.js?v=202611251740"></script>
 <script>
 (function () {
   'use strict';
@@ -1039,6 +1039,8 @@
   /* 사이즈 이름이 'JS~JM(4번)', 'L(~JS)'처럼 주니어 코드를 품고 있는 경우 */
   var JUNIOR_TOKEN = /(^|[^A-Za-z])(JS|JM|JL|JXL|JXXL|J1|J2|J3)(?=[^A-Za-z]|$)/i;
   function isJunior(p) {
+    /* 리우리우처럼 1X~6X(주니어) 라인은 상품에 junior 표시를 달아 둡니다 */
+    if (p.junior) return true;
     var sizes = p.sizes || [];
     for (var i = 0; i < sizes.length; i++) {
       var s = String(sizes[i]).replace(/\s/g, '');
