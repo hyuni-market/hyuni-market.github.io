@@ -1054,7 +1054,7 @@ window.HYEONMARKET_DATA = {
       name: '아커',
       nameEn: 'AKER',
       categories: ['bebe', 'unisex'],
-      sizeImage: 'assets/catalog/sizes/aker.png',
+      sizeImage: 'assets/catalog/sizes/aker.jpg',
     },
   ],
 
