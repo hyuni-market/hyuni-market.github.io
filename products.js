@@ -193964,7 +193964,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/miso/185-10.webp'
       ],
       description: ['색상 · 곤핑 / 크먹 / 레드밤 / 회카', '사이즈 · FREE(49-52cm)']
-    },,
+    },
     {
       id: 'kudos-001',
       brandId: 'kudos',
@@ -193993,7 +193993,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/001-10.webp'
       ],
       description: ['색상 · 네이비 / 메란지', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-002',
       brandId: 'kudos',
@@ -194022,7 +194022,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/002-10.webp'
       ],
       description: ['색상 · 네이비 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-003',
       brandId: 'kudos',
@@ -194051,7 +194051,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/003-10.webp'
       ],
       description: ['색상 · 네이비 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-004',
       brandId: 'kudos',
@@ -194080,7 +194080,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/004-10.webp'
       ],
       description: ['색상 · 블랙 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-005',
       brandId: 'kudos',
@@ -194109,7 +194109,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/005-10.webp'
       ],
       description: ['색상 · 그레이 / 브라운', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-006',
       brandId: 'kudos',
@@ -194138,7 +194138,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/006-10.webp'
       ],
       description: ['색상 · 그레이 / 브라운', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-007',
       brandId: 'kudos',
@@ -194167,7 +194167,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/007-10.webp'
       ],
       description: ['색상 · 네이비 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-008',
       brandId: 'kudos',
@@ -194196,7 +194196,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/008-10.webp'
       ],
       description: ['색상 · 블랙 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-009',
       brandId: 'kudos',
@@ -194225,7 +194225,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/009-10.webp'
       ],
       description: ['색상 · 블루 / 오렌지', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-010',
       brandId: 'kudos',
@@ -194254,7 +194254,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/010-10.webp'
       ],
       description: ['색상 · 블랙 / 스카이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-011',
       brandId: 'kudos',
@@ -194283,7 +194283,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/011-10.webp'
       ],
       description: ['색상 · 블랙 / 메란지', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-012',
       brandId: 'kudos',
@@ -194312,7 +194312,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/012-10.webp'
       ],
       description: ['색상 · 네이비 / 그린 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-013',
       brandId: 'kudos',
@@ -194341,7 +194341,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/013-10.webp'
       ],
       description: ['색상 · 레드 / 브라운', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-014',
       brandId: 'kudos',
@@ -194370,7 +194370,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/014-10.webp'
       ],
       description: ['색상 · 블랙 / 메란지', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-015',
       brandId: 'kudos',
@@ -194399,7 +194399,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/015-10.webp'
       ],
       description: ['색상 · 블랙 / 메란지', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-016',
       brandId: 'kudos',
@@ -194428,7 +194428,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/016-10.webp'
       ],
       description: ['색상 · 블랙 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-017',
       brandId: 'kudos',
@@ -194457,7 +194457,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/017-10.webp'
       ],
       description: ['색상 · 블랙 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-018',
       brandId: 'kudos',
@@ -194486,7 +194486,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/018-10.webp'
       ],
       description: ['색상 · 네이비 / 크림', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-019',
       brandId: 'kudos',
@@ -194515,7 +194515,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/019-10.webp'
       ],
       description: ['색상 · 네이비 / 크림', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },,
+    },
     {
       id: 'kudos-020',
       brandId: 'kudos',
@@ -194544,6 +194544,6 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/kudos/020-10.webp'
       ],
       description: ['색상 · 그린 / 그레이', '사이즈 · S / M / L / XL / JS / JM / JL']
-    },
+    }
   ]
 };
