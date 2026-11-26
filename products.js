@@ -173614,7 +173614,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-9/main/catalog/koenko/039-6.webp'
       ],
       description: ['색상 · 민트아이 / 퍼플아이', '사이즈 · XXS / XS / S / M / L']
-    }
+    },
     {
       id: 'koenko-040',
       brandId: 'koenko',
