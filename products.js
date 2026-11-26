@@ -173701,7 +173701,7 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/koenko1126/042-5.webp'
       ],
       description: ['색상 · 산타', '사이즈 · FREE']
-    },,
+    },
     {
       id: 'bello-001',
       brandId: 'bello',
