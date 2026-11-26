@@ -188665,5 +188665,27 @@ window.HYEONMARKET_DATA = {
       ],
       description: ['색상 · 브라운 / 먹색', '사이즈 · XS / S / M / L / XL']
     },
+    {
+      id: 'melmel-080',
+      brandId: 'melmel',
+      brand: '멜멜',
+      name: '트리티',
+      itId: '5C1795582132',
+      releaseDate: '2026-11-25',
+      price: 17000,
+      categories: ['unisex'],
+      itemType: 'top',
+      colors: ['크림'],
+      colorHex: { '크림': '#f2ede2' },
+      sizes: ['XXS', 'XS', 'S', 'M', 'L', 'XL'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/melmel/080-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/melmel/080-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/melmel/080-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/melmel/080-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-10/main/catalog/melmel/080-3.webp'
+      ],
+      description: ['색상 · 크림', '사이즈 · XXS / XS / S / M / L / XL']
+    },
   ]
 };
