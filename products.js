@@ -10650,7 +10650,7 @@ window.HYEONMARKET_DATA = {
       itId: '30C1791479930',
       releaseDate: '2026-10-09',
       price: 38000,
-      categories: ['bebe', 'unisex'],
+      categories: ['unisex'],
       itemType: 'goods',
       subcat: 'bag',
       colors: ['옐로우', '크림'],
