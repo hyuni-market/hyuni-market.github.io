@@ -787,7 +787,7 @@
 })();
 </script>
 
-<script src="products.js?v=202611271846"></script>
+<script src="products.js?v=202611272016"></script>
 <script>
 (function () {
   'use strict';
@@ -1970,8 +1970,34 @@
       toast('장바구니가 비어 있어요');
       return;
     }
-    /* 통계에는 복사 클릭 횟수와 상품 종수만 남기고, 주문 상세·개인정보는 보내지 않습니다. */
-    trackEvent('/주문서복사', '주문서 복사하기 · ' + cart.length + '종');
+    /* 통계에는 복사 클릭 횟수와 상품 종수·상품명만 남기고, 성함·연락처·주소·금액 등 개인정보는 보내지 않습니다. */
+    var copyNames = [];
+    var copySeen = {};
+    for (var ci = 0; ci < cart.length; ci++) {
+      var copyProduct = productById(cart[ci].productId);
+      if (!copyProduct) continue;
+      var copyName = (copyProduct.brand ? copyProduct.brand + ' ' : '') + copyProduct.name;
+      if (copySeen[copyName]) continue;
+      copySeen[copyName] = 1;
+      copyNames.push(copyName);
+    }
+    var copyTitle = '주문서 복사하기 · ' + cart.length + '종';
+    if (copyNames.length) {
+      var copyRoom = 190 - (copyTitle.length + 3);
+      var copyList = '';
+      for (var cj = 0; cj < copyNames.length; cj++) {
+        var copyPiece = (copyList ? ', ' : '') + copyNames[cj];
+        var copyRemain = copyNames.length - cj - 1;
+        var copyTail = copyRemain > 0 ? (' 외 ' + copyRemain + '종').length : 0;
+        if (copyList.length + copyPiece.length + copyTail > copyRoom) {
+          if (copyList) copyList += ' 외 ' + (copyNames.length - cj) + '종';
+          break;
+        }
+        copyList += copyPiece;
+      }
+      if (copyList) copyTitle += ' · ' + copyList;
+    }
+    trackEvent('/주문서복사', copyTitle);
     var text = buildOrderText();
     copyText(text).then(function (ok) {
       if (ok) {
