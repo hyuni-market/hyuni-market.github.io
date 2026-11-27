@@ -1927,6 +1927,8 @@
       toast('장바구니가 비어 있어요');
       return;
     }
+    /* 통계에는 복사 클릭 횟수와 상품 종수만 남기고, 주문 상세·개인정보는 보내지 않습니다. */
+    trackEvent('/주문서복사', '주문서 복사하기 · ' + cart.length + '종');
     var text = buildOrderText();
     copyText(text).then(function (ok) {
       if (ok) {
