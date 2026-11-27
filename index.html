@@ -322,7 +322,9 @@
     .detail-info.has-size-chart{position:static}
   }
   .detail-info{padding:18px 16px 26px;display:flex;flex-direction:column;gap:0;background:#fff}
-  .d-brand{font-size:11px;letter-spacing:.12em;font-weight:800;color:#7a6b5c}
+  .d-brand{display:flex;align-items:center;justify-content:space-between;gap:8px;
+    font-size:11px;letter-spacing:.12em;font-weight:800;color:#7a6b5c}
+  .d-brand>span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .d-name{font-size:23px;font-weight:800;letter-spacing:-.3px;margin:6px 0 9px;line-height:1.28;color:#241c15;word-break:keep-all;overflow-wrap:break-word}
   .d-price{font-size:23px;font-weight:700;letter-spacing:0;color:#241c15}
   .d-desc{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-direction:column;gap:5px}
@@ -785,7 +787,7 @@
 })();
 </script>
 
-<script src="products.js?v=202611271848"></script>
+<script src="products.js?v=202611271846"></script>
 <script>
 (function () {
   'use strict';
@@ -1567,6 +1569,7 @@
     if (!st) return;
     var p = productById(st.productId);
     var brand = brandOf(p);
+    var dBadge = releaseBadge(p);
     var wrap = document.getElementById('detailScroll');
     var picks = st.picks || [];
     var picksSum = picksTotal(p);
@@ -1637,7 +1640,9 @@
       '<div class="detail-body">' +
         '<div class="detail-media">' + mainMedia + '</div>' +
         '<div class="detail-info' + (inlineSizeChartHtml(brand) ? ' has-size-chart' : '') + '">' +
-          '<span class="d-brand">' + esc(brand.name) + '</span>' +
+          '<span class="d-brand"><span>' + esc(brand.name) + '</span>' +
+            (dBadge ? '<span class="' + dBadge.cls + '">' + esc(dBadge.text) + '</span>' : '') +
+          '</span>' +
           '<h3 class="d-name">' + esc(p.name) + '</h3>' +
           '<div class="d-price" id="detailPrice">' + won(p.price) + '</div>' +
           (p.description && p.description.length ? '<ul class="d-desc">' + p.description.map(function (d) { return '<li>' + esc(d) + '</li>'; }).join('') + '</ul>' : '') +
