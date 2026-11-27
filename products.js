@@ -198602,7 +198602,31 @@ window.HYEONMARKET_DATA = {
         'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/amigo/047-10.webp'
       ],
       description: ['색상 · 소라 / 브라운 / 블루', '사이즈 · FREE']
-    }
-
+    },
+    {
+      id: 'ador-024',
+      brandId: 'ador',
+      brand: '아도르',
+      name: '스타후리스팬츠(한정수량)',
+      itId: '3C1795754586',
+      releaseDate: '2026-11-27',
+      price: 15000,
+      categories: ['unisex'],
+      itemType: 'bottom',
+      colors: ['스카이블루', '연보라'],
+      colorHex: { '스카이블루': '#9cc4e0', '연보라': '#c5b9dd' },
+      sizes: ['1', '2', '3', '4'],
+      thumb: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-t.webp',
+      image: 'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-1.webp',
+      detailImages: [
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-1.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-2.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-3.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-4.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-5.webp',
+        'https://raw.githubusercontent.com/hyuni-market/hyuni-assets-11/main/catalog/ador/024-6.webp'
+      ],
+      description: ['색상 · 스카이블루 / 연보라', '사이즈 · 1 / 2 / 3 / 4']
+    },
   ]
 };
